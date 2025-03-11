@@ -19,3 +19,7 @@ MonoBehaviour:
       Value: {fileID: 21300000, guid: 251ad381838dd429cba5795d7975ce2c, type: 3}
       index: 0
       isKeyDuplicated: 0
+    - Key: '# 02 Ending'
+      Value: {fileID: 21300000, guid: 448b5d41a1eab4644a53b62c4ecaebd7, type: 3}
+      index: 1
+      isKeyDuplicated: 0
