@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 1363.0,
-    "y": 332.5
+    "x": 1205.5,
+    "y": 124.0
   },
-  "zoomFactor": 1.0,
+  "zoomFactor": 0.657516241,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -125,7 +125,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "해설자",
           "subName": "",
-          "script": "길을 따라가던 중, 그들은 점점 더 깊은 숲 속으로 들어갔다. 마치 시간이 멈춘 듯한 고요함 속에서, 그들은 마침내 마을의 경계에 도착했다.",
+          "script": "길을 따라가던 중, 깊은 산속에서 길을 잃고, 지도에도 없는 곳으로 들어서게 된다.",
           "speed": 0.02,
           "connections": [
             37
@@ -147,32 +147,10 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "해설자",
           "subName": "",
-          "script": "그곳에는 오래된 나무들이 빽빽하게 서 있었고, 그 사이로 희미한 길이 이어져 있었다.",
+          "script": "날이 저물자 기이한 안개와 속삭임이 퍼지고, 마을이 모습을 드러냈다.",
           "speed": 0.02,
           "connections": [
             38
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 38,
-      "x": -497.5,
-      "y": -127.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "지훈",
-          "subName": "",
-          "script": "이제 시작이야. 우리가 찾던 그 마을, 곧 모습을 드러낼 거야.",
-          "speed": 0.02,
-          "connections": [
-            40
           ],
           "SelectionCount": 1
         }
@@ -201,9 +179,31 @@
       }
     },
     {
+      "id": 38,
+      "x": -496.5,
+      "y": -128.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설",
+          "subName": "",
+          "script": "마을 주민들은 친절하지만, 어딘가 어색한 분위기를 풍긴다.\n촌장 이도현이 그들을 맞이하며, 마을에서 하룻밤을 보내도록 권한다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
       "id": 40,
-      "x": -1287.5,
-      "y": 275.5,
+      "x": -2990.5,
+      "y": -93.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -220,8 +220,8 @@
           "connections": [
             41,
             42,
-            43,
-            44
+            -999,
+            -999
           ],
           "SelectionCount": 4
         }
@@ -229,8 +229,8 @@
     },
     {
       "id": 42,
-      "x": -811.5,
-      "y": 595.0,
+      "x": -2514.5,
+      "y": 226.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -250,53 +250,9 @@
       }
     },
     {
-      "id": 43,
-      "x": -811.5,
-      "y": 926.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "해설자",
-          "subName": "",
-          "script": "지훈은 어린 시절 꿈에서 본 장면과 일치하는 것을 발견하고 이를 친구들과 공유했다.",
-          "speed": 0.02,
-          "connections": [
-            -999
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 44,
-      "x": -811.5,
-      "y": 1272.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "해설자",
-          "subName": "",
-          "script": "윤서는 마을의 전설에 대해 더 많은 정보를 찾기 위해 주변을 탐색하자고 제안했다.",
-          "speed": 0.02,
-          "connections": [
-            -999
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
       "id": 41,
-      "x": -811.5,
-      "y": 275.5,
+      "x": -2514.5,
+      "y": -93.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -307,6 +263,68 @@
           "name": "해설자",
           "subName": "",
           "script": "그들은 마을의 경계에서 이상한 소리를 듣고 그 출처를 조사하기로 했다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 45,
+      "x": -1506.5,
+      "y": 239.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": null,
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "촌장",
+          "subName": "이남춘",
+          "script": null,
           "speed": 0.02,
           "connections": [
             -999
