@@ -1,0 +1,465 @@
+{
+  "position": {
+    "x": -159.5,
+    "y": -403.5
+  },
+  "zoomFactor": 0.8695652,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": 2,
+      "x": 441.0,
+      "y": -173.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "한국의 민속 신앙과 주술적 전통을 연구하는 것은 그에게 단순한 학문적 관심을 넘어선 것이었다.",
+          "speed": 0.02,
+          "connections": [
+            3
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 3,
+      "x": 791.0,
+      "y": -173.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "그것은 그의 뿌리와도 연결된 문제였다. 그는 손끝에 닿은 낡은 필사본을 조심스럽게 펼쳤다.",
+          "speed": 0.02,
+          "connections": [
+            4
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 4,
+      "x": 1141.0,
+      "y": -173.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "제목조차 희미해져 있었지만, 그 안에서 '검은 달의 의식'이라는 문장이 그의 시선을 사로잡았다.",
+          "speed": 0.02,
+          "connections": [
+            5
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 5,
+      "x": 1491.0,
+      "y": -173.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "그 문장 아래에는 '검은 달이 뜨는 밤, 사라진 마을이 모습을 드러낸다'라는 신비한 기록이 적혀 있었다.",
+          "speed": 0.02,
+          "connections": [
+            6
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 6,
+      "x": 91.0,
+      "y": 226.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "지훈은 그 문장을 읽는 순간, 어릴 적 꿈에서 들었던 속삭임과 이상하게도 일치하는 느낌을 받았다.",
+          "speed": 0.02,
+          "connections": [
+            7
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 7,
+      "x": 441.0,
+      "y": 226.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "그의 할머니가 들려주던 전설이 머릿속을 스쳐 지나갔다. '너는 언젠가 그곳을 찾게 될 거야.'",
+          "speed": 0.02,
+          "connections": [
+            8
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 8,
+      "x": 791.0,
+      "y": 226.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "할머니의 목소리는 마치 지금 이 순간을 예견한 듯했다. 지훈은 책을 덮고 깊은 생각에 잠겼다.",
+          "speed": 0.02,
+          "connections": [
+            9
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 9,
+      "x": 1141.0,
+      "y": 226.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "그의 이성은 이것을 단순한 전설로 치부하려 했지만, 마음속 깊은 곳에서는 그 이상임을 직감하고 있었다.",
+          "speed": 0.02,
+          "connections": [
+            10
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 10,
+      "x": 1491.0,
+      "y": 226.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "그는 결심했다. 친구들과 함께 이 마을을 찾아가 보기로. 그 선택이 그의 운명을 어떻게 바꿀지 모른 채 말이다.",
+          "speed": 0.02,
+          "connections": [
+            11
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": -246.0,
+      "y": -173.5,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "# 01 Library",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": true,
+            "elapsedTime": 1.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": true
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            1
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 1,
+      "x": 91.0,
+      "y": -173.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "# 01 Library",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "도서관의 깊은 정적 속에서 지훈의 손은 책장을 넘기고 있었다. 그의 눈은 피로에 지쳐 있었지만, 마음속의 호기심은 그를 멈추지 못하게 했다.",
+          "speed": 0.02,
+          "connections": [
+            2
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 11,
+      "x": 91.0,
+      "y": 626.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "마을로 떠난다.",
+            "마을로 떠나지 않는다."
+          ],
+          "connections": [
+            12,
+            13
+          ],
+          "SelectionCount": 2
+        }
+      }
+    },
+    {
+      "id": 13,
+      "x": 420.5,
+      "y": 958.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "지훈은 결국 미신이라 생각하고, 마을을 찾아가는 것을 포기한다.",
+          "speed": 0.02,
+          "connections": [
+            15
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 14,
+      "x": 791.0,
+      "y": 707.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "leave",
+            "operation": 0,
+            "value": 0,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            16
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 12,
+      "x": 441.0,
+      "y": 626.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "지훈은 친구들에게 전화를 걸어 이 발견에 대해 이야기하고 함께 마을을 찾기로 계획한다.\n검은 달이 뜨는 날을 맞춰 탐사를 떠나며, 운명적인 여정을 시작한다.",
+          "speed": 0.02,
+          "connections": [
+            14
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 16,
+      "x": 1241.0,
+      "y": 926.5,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 15,
+      "x": 791.0,
+      "y": 993.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "leave",
+            "operation": 0,
+            "value": 1,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            16
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}

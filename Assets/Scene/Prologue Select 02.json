@@ -1,0 +1,363 @@
+{
+  "position": {
+    "x": 1008.0,
+    "y": 383.0
+  },
+  "zoomFactor": 0.432327569,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": 14,
+      "x": -1506.5,
+      "y": -248.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "지훈은 결국 마을을 찾지 않기로 결심했다. 그는 자신의 이성을 믿고, 그것이 단순한 미신에 불과하다고 생각했다.",
+          "speed": 0.02,
+          "connections": [
+            15
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 19,
+      "x": -1506.5,
+      "y": 152.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "어느 날 밤, 도서관에서 연구를 하던 지훈은 갑자기 정신을 잃고 쓰러졌다.",
+          "speed": 0.02,
+          "connections": [
+            20
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 20,
+      "x": -1156.5,
+      "y": 152.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "동료들이 발견했을 때, 그는 깨어난 후 자신이 누구인지조차 기억하지 못했다. 그의 기억은 마치 안개 속에 가려진 것처럼 희미했다.",
+          "speed": 0.02,
+          "connections": [
+            21
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 21,
+      "x": -806.5,
+      "y": 152.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "마지막 장면에서, 지훈은 자신의 방 거울 앞에 서 있었다. 거울 속의 자신을 바라보았지만, 그곳에는 검은 눈동자를 가진 ‘다른 존재’가 서 있었다.",
+          "speed": 0.02,
+          "connections": [
+            22
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 22,
+      "x": -456.5,
+      "y": 152.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "그 존재는 지훈을 향해 속삭였다. '네가 왔어야 했어.' 지훈은 그 존재의 목소리에 혼란스러워하며, 자신의 선택이 어떤 결과를 초래했는지 깨닫게 되었다.",
+          "speed": 0.02,
+          "connections": [
+            23
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 23,
+      "x": -106.5,
+      "y": 152.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "그는 이제 다시 그 미지의 마을을 찾아야 할 운명에 놓여 있었다.",
+          "speed": 0.02,
+          "connections": [
+            24
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 24,
+      "x": -1506.5,
+      "y": 552.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "지훈이 자신의 기억을 되찾기 위해 다시 마을을 찾기로 결심한다.",
+            "지훈은 친구들에게 도움을 청하고, 함께 꿈의 의미를 파헤치기로 한다.",
+            "지훈은 자신의 정체성을 되찾기 위해 할머니의 유품을 조사하기로 한다.",
+            "지훈은 거울 속 존재와의 대화를 통해 자신의 운명을 받아들이기로 한다."
+          ],
+          "connections": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "SelectionCount": 4
+        }
+      }
+    },
+    {
+      "id": 25,
+      "x": -1156.5,
+      "y": 552.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "지훈은 자신의 기억을 되찾기 위해 다시 마을을 찾기로 결심했다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 26,
+      "x": -806.5,
+      "y": 552.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "지훈은 친구들에게 도움을 청하고, 함께 꿈의 의미를 파헤치기로 했다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 27,
+      "x": -456.5,
+      "y": 552.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "지훈은 자신의 정체성을 되찾기 위해 할머니의 유품을 조사하기로 했다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 28,
+      "x": -106.5,
+      "y": 552.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "지훈은 거울 속 존재와의 대화를 통해 자신의 운명을 받아들이기로 했다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 15,
+      "x": -1156.5,
+      "y": -248.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "그러나 그의 선택은 그를 예상치 못한 길로 이끌었다. 시간이 지나면서, 지훈은 연구와 학업에 몰두했고, 그동안 그 마을에 대한 생각은 점점 희미해져 갔다.",
+          "speed": 0.02,
+          "connections": [
+            16
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 16,
+      "x": -806.5,
+      "y": -248.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "하지만 이상한 꿈이 그를 괴롭히기 시작했다. 꿈속에서 그는 낯선 마을에 서 있었고, 그곳에서 의식을 목격했다.",
+          "speed": 0.02,
+          "connections": [
+            17
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 17,
+      "x": -456.5,
+      "y": -248.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "사람들은 그를 향해 속삭였다. '넌 약속을 어겼어.' 꿈은 점점 더 선명해졌고, 지훈은 현실과 꿈의 경계를 잃어가기 시작했다.",
+          "speed": 0.02,
+          "connections": [
+            18
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 18,
+      "x": -106.5,
+      "y": -248.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": "",
+          "script": "그는 꿈속에서 들었던 속삭임이 마치 현실에서 들리는 것처럼 느껴졌다.",
+          "speed": 0.02,
+          "connections": [
+            19
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": -1948.5,
+      "y": -282.0,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            14
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}
