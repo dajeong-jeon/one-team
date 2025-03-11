@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": 864.0,
-    "y": 104.5
+    "x": 585.0,
+    "y": -9.0
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": -1,
@@ -81,7 +81,7 @@
         "coroutines": [
           {
             "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "# 02 Ending",
+            "backgroundImage": "# 02 Ending_2",
             "position": {
               "x": 0.0,
               "y": 0.0
