@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 1208.5,
-    "y": -397.0
+    "x": 1770.0,
+    "y": 148.5
   },
-  "zoomFactor": 0.657516241,
+  "zoomFactor": 0.497176737,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -350,29 +350,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "윤서",
           "subName": "",
-          "script": "이곳에 뭔가 중요한 게 있어. 그냥 돌아가기엔 너무 많은 걸 놓치게 될 거야.",
-          "speed": 0.02,
-          "connections": [
-            86
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 86,
-      "x": -1511.0,
-      "y": 631.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "지훈",
-          "subName": "",
-          "script": "우리가 여기서 하룻밤을 보내는 것이 좋을 것 같아. 하지만 모두 조심해야 해.",
+          "script": "여기엔 중요한 것이 있어. 그냥 돌아가면 후회할거야. 하룻밤할만 머물되, 모두 조심하자.",
           "speed": 0.02,
           "connections": [
             87
@@ -382,9 +360,9 @@
       }
     },
     {
-      "id": 87,
-      "x": -1161.0,
-      "y": 631.5,
+      "id": 104,
+      "x": 118.0,
+      "y": 209.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -394,19 +372,19 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "그날 밤, 마을은 고요했지만, 그 고요함 속에는 알 수 없는 긴장감이 감돌았다.",
+          "script": "지훈은 민혁을 찾기 위해 마을 곳곳을 돌아다니기 시작했다.",
           "speed": 0.02,
           "connections": [
-            88
+            -999
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 88,
-      "x": -811.0,
-      "y": 631.5,
+      "id": 105,
+      "x": 468.0,
+      "y": 209.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -416,19 +394,19 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "지훈은 창밖을 바라보며 이상한 의식을 준비하는 마을 주민들의 그림자를 보았다.",
+          "script": "그러던 중, 그는 기이한 부적과 봉인된 사당, 그리고 알 수 없는 문양을 발견했다.",
           "speed": 0.02,
           "connections": [
-            89
+            -999
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 89,
-      "x": -448.5,
-      "y": 628.0,
+      "id": 106,
+      "x": 818.0,
+      "y": 209.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -438,19 +416,310 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "그들 사이로 검은 달이 떠올랐고, 그 빛은 마치 모든 것을 감싸 안은 듯했다.",
+          "script": "그것들은 마치 그를 어느 방향으로 이끌고 있는 듯했다.",
           "speed": 0.02,
           "connections": [
-            90
+            -999
           ],
           "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 107,
+      "x": 1168.0,
+      "y": 209.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "연화",
+          "subName": "무녀",
+          "script": "네가 이곳을 기억하는가?",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 108,
+      "x": 1518.0,
+      "y": 209.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그녀의 질문은 지훈의 마음 깊은 곳을 흔들었다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 109,
+      "x": 118.0,
+      "y": 609.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그는 자신도 모르게 끌려가듯 연화를 따라갔다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 110,
+      "x": 468.0,
+      "y": 609.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그동안 마을 주민들은 하나둘씩 이상한 행동을 하기 시작했다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 111,
+      "x": 818.0,
+      "y": 609.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그들의 눈빛은 텅 빈 듯했고, 마치 무언가에 홀린 것처럼 움직였다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 112,
+      "x": 1168.0,
+      "y": 609.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "지훈은 그들을 지켜보며, 이 마을의 비밀이 점점 더 위험하게 느껴졌다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 113,
+      "x": 1518.0,
+      "y": 609.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "연화는 지훈을 마을의 중심에 있는 사당으로 데려갔다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 114,
+      "x": 118.0,
+      "y": 1009.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그곳은 오래된 전설 속에서만 존재하던 장소였다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 115,
+      "x": 468.0,
+      "y": 1009.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "연화",
+          "subName": "",
+          "script": "여기서 모든 것이 시작되었지.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 116,
+      "x": 818.0,
+      "y": 1009.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "지훈은 그 말을 듣고, 자신의 어린 시절 기억 속에서 희미하게 떠오르는 장면들을 떠올렸다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 117,
+      "x": 1168.0,
+      "y": 1009.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그는 이곳에 왜 오게 되었는지, 그리고 자신이 어떤 연결고리를 가지고 있는지 알기 위해 결단을 내려야 했다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 118,
+      "x": 1518.0,
+      "y": 1009.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그리고 사라진 민혁을 찾기 위해, 그는 이 마을의 진실을 밝혀야만 했다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 119,
+      "x": 118.0,
+      "y": 1409.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "무녀 연화에게 마을의 비밀을 묻고 협력한다.",
+            "사라진 민혁의 흔적을 찾아 나선다.",
+            "마을 주민들의 이상 행동을 조사한다.",
+            "기이한 부적과 봉인된 사당, 문양을 습득한다."
+          ],
+          "connections": [
+            -999,
+            -999,
+            -999,
+            -999
+          ],
+          "SelectionCount": 4
         }
       }
     },
     {
       "id": 90,
-      "x": -1517.5,
-      "y": 1017.5,
+      "x": -3445.5,
+      "y": 1149.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -471,8 +740,8 @@
     },
     {
       "id": 91,
-      "x": -1167.5,
-      "y": 1017.5,
+      "x": -3095.5,
+      "y": 1149.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -493,8 +762,8 @@
     },
     {
       "id": 92,
-      "x": -817.5,
-      "y": 1017.5,
+      "x": -2745.5,
+      "y": 1149.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -515,8 +784,8 @@
     },
     {
       "id": 93,
-      "x": -467.5,
-      "y": 1017.5,
+      "x": -2395.5,
+      "y": 1149.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -535,6 +804,182 @@
             -999
           ],
           "SelectionCount": 3
+        }
+      }
+    },
+    {
+      "id": 89,
+      "x": -2376.5,
+      "y": 760.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그들 사이로 검은 달이 떠올랐고, 그 빛은 마치 모든 것을 감싸 안은 듯했다.",
+          "speed": 0.02,
+          "connections": [
+            90
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 87,
+      "x": -1509.5,
+      "y": 624.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그날 밤, 마을은 고요했지만, 그 고요함 속에는 알 수 없는 긴장감이 감돌았다.",
+          "speed": 0.02,
+          "connections": [
+            88
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 88,
+      "x": -1159.5,
+      "y": 624.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "잠이 오지 않는 지훈은 창밖을 바라보며 이상한 의식을 준비하는 마을 주민들의 그림자를 보았다.",
+          "speed": 0.02,
+          "connections": [
+            98
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 98,
+      "x": -801.5,
+      "y": 624.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그때, 멀리서 들려오는 의문의 노랫소리가 그의 귀에 스며들었고  갑자기 머릿속이  하얘지며 쓰러지듯 잠에 들게 되었다.",
+          "speed": 0.02,
+          "connections": [
+            100
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 103,
+      "x": 1518.0,
+      "y": -191.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "밖으로 나가자, 마을은 여전히 고요했다. 그 고요함 속에서 알 수 없는 불안감이 감돌았다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 101,
+      "x": -1502.0,
+      "y": 991.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "방 안은 어둠으로 가득 차 있었고, 친구들 중 한 명이 사라진 것을 깨달았다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 100,
+      "x": -452.5,
+      "y": 625.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "새벽이 되자, 지훈은 불길한 예감에 잠에서 깨어났다.",
+          "speed": 0.02,
+          "connections": [
+            101
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 102,
+      "x": 1157.0,
+      "y": -188.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "민혁이 보이지 않았다. 지훈은 당황하며 방을 나섰다.",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
         }
       }
     }
