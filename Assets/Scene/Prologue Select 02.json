@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 1008.0,
-    "y": 383.0
+    "x": 334.5,
+    "y": 25.0
   },
-  "zoomFactor": 0.432327569,
+  "zoomFactor": 0.7561437,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -107,147 +107,10 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "해설자",
           "subName": "",
-          "script": "그 존재는 지훈을 향해 속삭였다. '네가 왔어야 했어.' 지훈은 그 존재의 목소리에 혼란스러워하며, 자신의 선택이 어떤 결과를 초래했는지 깨닫게 되었다.",
+          "script": "그 존재는 지훈을 향해 속삭였다. '네가 왔어야 했어.'",
           "speed": 0.02,
           "connections": [
-            23
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 23,
-      "x": -106.5,
-      "y": 152.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "해설자",
-          "subName": "",
-          "script": "그는 이제 다시 그 미지의 마을을 찾아야 할 운명에 놓여 있었다.",
-          "speed": 0.02,
-          "connections": [
-            24
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 24,
-      "x": -1506.5,
-      "y": 552.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
-          "scripts": [
-            "지훈이 자신의 기억을 되찾기 위해 다시 마을을 찾기로 결심한다.",
-            "지훈은 친구들에게 도움을 청하고, 함께 꿈의 의미를 파헤치기로 한다.",
-            "지훈은 자신의 정체성을 되찾기 위해 할머니의 유품을 조사하기로 한다.",
-            "지훈은 거울 속 존재와의 대화를 통해 자신의 운명을 받아들이기로 한다."
-          ],
-          "connections": [
-            25,
-            26,
-            27,
-            28
-          ],
-          "SelectionCount": 4
-        }
-      }
-    },
-    {
-      "id": 25,
-      "x": -1156.5,
-      "y": 552.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "해설자",
-          "subName": "",
-          "script": "지훈은 자신의 기억을 되찾기 위해 다시 마을을 찾기로 결심했다.",
-          "speed": 0.02,
-          "connections": [
-            -999
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 26,
-      "x": -806.5,
-      "y": 552.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "해설자",
-          "subName": "",
-          "script": "지훈은 친구들에게 도움을 청하고, 함께 꿈의 의미를 파헤치기로 했다.",
-          "speed": 0.02,
-          "connections": [
-            -999
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 27,
-      "x": -456.5,
-      "y": 552.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "해설자",
-          "subName": "",
-          "script": "지훈은 자신의 정체성을 되찾기 위해 할머니의 유품을 조사하기로 했다.",
-          "speed": 0.02,
-          "connections": [
-            -999
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 28,
-      "x": -106.5,
-      "y": 552.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "해설자",
-          "subName": "",
-          "script": "지훈은 거울 속 존재와의 대화를 통해 자신의 운명을 받아들이기로 했다.",
-          "speed": 0.02,
-          "connections": [
-            -999
+            29
           ],
           "SelectionCount": 1
         }
@@ -354,6 +217,24 @@
           "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
           "connections": [
             14
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 29,
+      "x": -57.5,
+      "y": 228.0,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
           ],
           "SelectionCount": 1
         }
