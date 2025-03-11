@@ -14,19 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characters:
     dictionaryList:
-    - Key: sample
-      Value: {fileID: 7915675542335162959, guid: 3dcb2d6a7573b466fbbd03a8d40b215e, type: 3}
+    - Key: Jihoon
+      Value: {fileID: 7915675542335162959, guid: 16704d01e63ac4c6eb6f145b31d985a4, type: 3}
       index: 0
-      isKeyDuplicated: 0
-    - Key: ghost
-      Value: {fileID: 7915675542335162959, guid: 597b22fed67dcc34d9bc14eeae527f86, type: 3}
-      index: 1
-      isKeyDuplicated: 0
-    - Key: test1
-      Value: {fileID: 7915675542335162959, guid: 763ee43b981d80e4da32c50b9fb2cbc6, type: 3}
-      index: 2
-      isKeyDuplicated: 0
-    - Key: test2
-      Value: {fileID: 7915675542335162959, guid: f79e7983b7ae49843828708a9493a60a, type: 3}
-      index: 3
       isKeyDuplicated: 0
