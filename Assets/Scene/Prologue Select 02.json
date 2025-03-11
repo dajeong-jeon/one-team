@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 334.5,
-    "y": 25.0
+    "x": 608.0,
+    "y": 133.0
   },
-  "zoomFactor": 0.7561437,
+  "zoomFactor": 0.8695652,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -85,7 +85,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "해설자",
           "subName": "",
-          "script": "마지막 장면에서, 지훈은 자신의 방 거울 앞에 서 있었다. 거울 속의 자신을 바라보았지만, 그곳에는 검은 눈동자를 가진 ‘다른 존재’가 서 있었다.",
+          "script": "지훈은 자신의 방 거울 앞에 서 있었다. 거울 속의 자신을 바라보았지만, 그곳에는 검은 눈동자를 가진 ‘다른 존재’가 서 있었다.",
           "speed": 0.02,
           "connections": [
             22

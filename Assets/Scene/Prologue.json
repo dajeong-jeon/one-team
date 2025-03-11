@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": -159.5,
-    "y": -403.5
+    "x": 725.0,
+    "y": 273.5
   },
-  "zoomFactor": 0.8695652,
+  "zoomFactor": 1.0,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -154,109 +154,7 @@
           "script": "할머니의 목소리는 마치 지금 이 순간을 예견한 듯했다. 지훈은 책을 덮고 깊은 생각에 잠겼다.",
           "speed": 0.02,
           "connections": [
-            9
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 9,
-      "x": 1141.0,
-      "y": 226.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "지훈",
-          "subName": "",
-          "script": "그의 이성은 이것을 단순한 전설로 치부하려 했지만, 마음속 깊은 곳에서는 그 이상임을 직감하고 있었다.",
-          "speed": 0.02,
-          "connections": [
-            10
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 10,
-      "x": 1491.0,
-      "y": 226.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "지훈",
-          "subName": "",
-          "script": "그는 결심했다. 친구들과 함께 이 마을을 찾아가 보기로. 그 선택이 그의 운명을 어떻게 바꿀지 모른 채 말이다.",
-          "speed": 0.02,
-          "connections": [
             11
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": -1,
-      "x": -246.0,
-      "y": -173.5,
-      "nodeType": 1,
-      "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "# 01 Library",
-            "position": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": true,
-            "elapsedTime": 1.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 0.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": true
-          }
-        ]
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
-          "connections": [
-            1
           ],
           "SelectionCount": 1
         }
@@ -325,32 +223,89 @@
       }
     },
     {
-      "id": 11,
-      "x": 91.0,
-      "y": 626.5,
+      "id": -1,
+      "x": -646.5,
+      "y": -224.0,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "# 01 Library",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": true,
+            "elapsedTime": 1.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": true
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            17
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 17,
+      "x": -314.0,
+      "y": -173.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
       },
       "actionData": {
         "action": {
-          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
-          "scripts": [
-            "마을로 떠난다.",
-            "마을로 떠나지 않는다."
-          ],
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "어느 깊은 산속, 지도에도 기록에도 없는 작은 마을이 있었다. 이 마을은 특정한 조건이 맞을 때, 밤이 가장 깊고 달이 검게 물드는 날에만 나타난다는 전설이 내려온다.",
+          "speed": 0.02,
           "connections": [
-            12,
-            13
+            1
           ],
-          "SelectionCount": 2
+          "SelectionCount": 1
         }
       }
     },
     {
       "id": 13,
-      "x": 420.5,
-      "y": 958.5,
+      "x": 1443.5,
+      "y": 574.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -371,8 +326,8 @@
     },
     {
       "id": 14,
-      "x": 791.0,
-      "y": 707.5,
+      "x": 1814.0,
+      "y": 323.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": [
@@ -397,8 +352,8 @@
     },
     {
       "id": 12,
-      "x": 441.0,
-      "y": 626.5,
+      "x": 1464.0,
+      "y": 242.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -419,8 +374,8 @@
     },
     {
       "id": 16,
-      "x": 1241.0,
-      "y": 926.5,
+      "x": 2264.0,
+      "y": 542.5,
       "nodeType": 3,
       "coroutineData": {
         "coroutines": []
@@ -437,8 +392,8 @@
     },
     {
       "id": 15,
-      "x": 791.0,
-      "y": 993.0,
+      "x": 1814.0,
+      "y": 609.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": [
@@ -458,6 +413,29 @@
             16
           ],
           "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 11,
+      "x": 1114.0,
+      "y": 242.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "전설이라 치부했지만, 본능적으로 느껴 마을로 향하기로 했다.",
+            "단순한 전설로 치부하며 무시한다."
+          ],
+          "connections": [
+            12,
+            13
+          ],
+          "SelectionCount": 2
         }
       }
     }
