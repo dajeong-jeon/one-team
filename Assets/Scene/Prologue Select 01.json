@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 1467.5,
-    "y": -370.0
+    "x": 681.0,
+    "y": -789.5
   },
-  "zoomFactor": 0.8695652,
+  "zoomFactor": 0.571753263,
   "debugNodeIndex": 32,
   "nodes": [
     {
@@ -1532,8 +1532,8 @@
         "action": {
           "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
           "scripts": [
-            "친구를 찾지 않고 일단 마을을 떠난다.",
-            "친구를 찾는다."
+            "친구를 찾는다.",
+            "친구를 찾지 않고 일단 마을을 떠난다."
           ],
           "connections": [
             121,

@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": -704.5,
-    "y": -611.0
+    "x": -387.5,
+    "y": 642.5
   },
-  "zoomFactor": 1.0,
+  "zoomFactor": 0.7561437,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -41,7 +41,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "처음에는 마을 사람들에게 도움을 요청하려 했지만, 그들은 태연하게 \"조금 더 기다리라\"며 무언가를 숨기는 듯했고,",
+          "script": "처음에는 마을 사람들에게 도움을 요청하려 했지만, 그들의 태도는 이상할 정도로 태연했다.",
           "speed": 0.02,
           "connections": [
             26
@@ -63,7 +63,29 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "마을 사람들은 태연하게 \"조금 더 기다리라\"며 무언가를 숨기는 듯했고, 지훈과 친구들은 더 이상 지체할 수 없다 판단해 떠나기로 했다.",
+          "script": "오히려 '조금 더 기다려 보라'며 무언가를 숨기는 듯한 모습이었다.",
+          "speed": 0.02,
+          "connections": [
+            27
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 27,
+      "x": 1780.0,
+      "y": -735.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그들은 더 이상 지체할 수 없다고 판단하고, 마을을 떠나기로 결심했다.",
           "speed": 0.02,
           "connections": [
             28
@@ -73,8 +95,52 @@
       }
     },
     {
+      "id": 28,
+      "x": 2130.0,
+      "y": -735.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "어딘가 섬뜩한 분위기가 감돌았고, 마치 보이지 않는 무언가가 그들을 감시하는 듯한 기분이 들었다.",
+          "speed": 0.02,
+          "connections": [
+            29
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
       "id": 29,
       "x": 730.0,
+      "y": -335.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그러나 마을 어귀에 도착했을 때, 촌장 이도현이 길을 막아서며 나지막이 말했다.",
+          "speed": 0.02,
+          "connections": [
+            30
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 30,
+      "x": 1080.0,
       "y": -335.5,
       "nodeType": 2,
       "coroutineData": {
@@ -95,26 +161,8 @@
       }
     },
     {
-      "id": -1,
-      "x": 386.5,
-      "y": -733.0,
-      "nodeType": 1,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
-          "connections": [
-            24
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
       "id": 31,
-      "x": 1076.0,
+      "x": 1430.0,
       "y": -335.5,
       "nodeType": 2,
       "coroutineData": {
@@ -136,7 +184,7 @@
     },
     {
       "id": 32,
-      "x": 1426.0,
+      "x": 1780.0,
       "y": -335.5,
       "nodeType": 2,
       "coroutineData": {
@@ -147,19 +195,19 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "숲에 들어서자 안개가 짙어지며 길이 희미해졌고, 돌아가려 해도 같은 풍경만 반복될 뿐이었다.",
+          "script": "하지만 숲으로 접어들자 점점 안개가 짙어지더니, 마치 스스로 움직이는 듯한 착각이 들 정도로 그들을 둘러쌌다.",
           "speed": 0.02,
           "connections": [
-            35
+            33
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 28,
-      "x": 1767.0,
-      "y": -728.0,
+      "id": 33,
+      "x": 2130.0,
+      "y": -335.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -169,10 +217,32 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "그, 촌장 이남춘이 길을 막아서며 나지막이 말했다.",
+          "script": "어느 순간부터 길이 희미해지기 시작했다. 다시 돌아가려 해도 사방이 똑같은 풍경이었다.",
           "speed": 0.02,
           "connections": [
-            29
+            34
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 34,
+      "x": 730.0,
+      "y": 64.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "마을을 빠져나온 줄 알았는데, 걸어도 걸어도 같은 장소가 반복될 뿐이었다.",
+          "speed": 0.02,
+          "connections": [
+            35
           ],
           "SelectionCount": 1
         }
@@ -180,8 +250,8 @@
     },
     {
       "id": 35,
-      "x": 1757.0,
-      "y": -338.5,
+      "x": 1080.0,
+      "y": 64.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -202,8 +272,8 @@
     },
     {
       "id": 36,
-      "x": 731.0,
-      "y": 48.5,
+      "x": 1430.0,
+      "y": 64.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -224,8 +294,8 @@
     },
     {
       "id": 37,
-      "x": 1081.0,
-      "y": 48.5,
+      "x": 1780.0,
+      "y": 64.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -246,8 +316,8 @@
     },
     {
       "id": 38,
-      "x": 1431.0,
-      "y": 48.5,
+      "x": 2130.0,
+      "y": 64.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -268,8 +338,8 @@
     },
     {
       "id": 39,
-      "x": 1751.0,
-      "y": 57.5,
+      "x": 730.0,
+      "y": 464.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -277,12 +347,34 @@
       "actionData": {
         "action": {
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "이남춘",
+          "name": "이도현",
           "subName": "촌장",
           "script": "아직 마을의 부름을 거스를 수 있는 자는 없었지.",
           "speed": 0.02,
           "connections": [
-            -999
+            40
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 40,
+      "x": 1080.0,
+      "y": 464.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "촌장이 씁쓸한 미소를 지으며 말했다.",
+          "speed": 0.02,
+          "connections": [
+            41
           ],
           "SelectionCount": 1
         }
@@ -290,8 +382,8 @@
     },
     {
       "id": 41,
-      "x": 730.5,
-      "y": 457.0,
+      "x": 1430.0,
+      "y": 464.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -312,8 +404,8 @@
     },
     {
       "id": 42,
-      "x": 1080.5,
-      "y": 457.0,
+      "x": 1780.0,
+      "y": 464.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -334,8 +426,8 @@
     },
     {
       "id": 43,
-      "x": 1430.5,
-      "y": 457.0,
+      "x": 2130.0,
+      "y": 464.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -356,8 +448,8 @@
     },
     {
       "id": 44,
-      "x": 1756.5,
-      "y": 458.5,
+      "x": 730.0,
+      "y": 864.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -378,8 +470,8 @@
     },
     {
       "id": 45,
-      "x": 726.5,
-      "y": 847.0,
+      "x": 1080.0,
+      "y": 864.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -400,8 +492,8 @@
     },
     {
       "id": 46,
-      "x": 1076.5,
-      "y": 847.0,
+      "x": 1430.0,
+      "y": 864.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -422,51 +514,11 @@
     },
     {
       "id": 47,
-      "x": 1426.5,
-      "y": 847.0,
+      "x": 1780.0,
+      "y": 864.5,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "Shrine",
-            "position": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          }
-        ]
+        "coroutines": []
       },
       "actionData": {
         "action": {
@@ -476,79 +528,17 @@
           "script": "그들은 마을의 일부가 되어 영원히 그곳에 남게 되었고, 이 마을의 전설은 또 다른 이들을 기다리며 조용히 숨 쉬고 있었다.",
           "speed": 0.02,
           "connections": [
-            48
+            -999
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 48,
-      "x": 1746.5,
-      "y": 849.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": null,
-            "position": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          }
-        ]
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": null,
-          "subName": null,
-          "script": "엔딩 컷 넣어주쇼",
-          "speed": 0.02,
-          "connections": [
-            49
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 49,
-      "x": 2175.5,
-      "y": 970.0,
-      "nodeType": 3,
+      "id": -1,
+      "x": 386.5,
+      "y": -733.0,
+      "nodeType": 1,
       "coroutineData": {
         "coroutines": []
       },
@@ -556,7 +546,7 @@
         "action": {
           "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
           "connections": [
-            -999
+            24
           ],
           "SelectionCount": 1
         }
