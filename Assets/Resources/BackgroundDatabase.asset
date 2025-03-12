@@ -67,3 +67,15 @@ MonoBehaviour:
       Value: {fileID: 21300000, guid: 1d16665be89224476a3341ad4b779f30, type: 3}
       index: 12
       isKeyDuplicated: 0
+    - Key: Chonjang_Room
+      Value: {fileID: 21300000, guid: 3d91e42a5b08c41e080f5a178ebd2438, type: 3}
+      index: 13
+      isKeyDuplicated: 0
+    - Key: Forest
+      Value: {fileID: 21300000, guid: b68c0a86eb68c0345970b246a66d1549, type: 3}
+      index: 14
+      isKeyDuplicated: 0
+    - Key: University
+      Value: {fileID: 21300000, guid: c4d2df6ab41f849ce8c181f33550ba8b, type: 3}
+      index: 15
+      isKeyDuplicated: 0
