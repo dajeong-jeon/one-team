@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": 1660.0,
-    "y": -184.0
+    "x": 1452.0,
+    "y": -135.0
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": -1,
@@ -407,68 +407,6 @@
       }
     },
     {
-      "id": 22,
-      "x": -1056.5,
-      "y": 307.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "Mirror_Jihoon_Zoom",
-            "position": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          }
-        ]
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "해설자",
-          "subName": "",
-          "script": "그 존재는 지훈을 향해 속삭였다. '네가 왔어야 했어.'",
-          "speed": 0.02,
-          "connections": [
-            29
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
       "id": 29,
       "x": -657.5,
       "y": 383.0,
@@ -577,6 +515,102 @@
           "speed": 0.02,
           "connections": [
             22
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 22,
+      "x": -1056.5,
+      "y": 307.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Mirror_Jihoon_Zoom",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteForegroundUnit, Assembly-CSharp",
+            "backgroundImage": null,
+            "fade": true,
+            "elapsedTime": 1.5,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "그 존재는 지훈을 향해 속삭였다. '네가 왔어야 했어.'",
+          "speed": 0.02,
+          "connections": [
+            29
           ],
           "SelectionCount": 1
         }
