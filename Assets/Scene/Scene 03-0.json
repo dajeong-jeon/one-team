@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": -1263.5,
-    "y": 1347.0
+    "x": -1749.0,
+    "y": -2078.0
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": 68,
@@ -443,7 +443,7 @@
         "coroutines": [
           {
             "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "black",
+            "backgroundImage": "Village",
             "position": {
               "x": 0.0,
               "y": 0.0
@@ -505,7 +505,7 @@
         "coroutines": [
           {
             "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "Red_String",
+            "backgroundImage": "Shrine",
             "position": {
               "x": 0.0,
               "y": 0.0
@@ -626,7 +626,47 @@
       "y": -304.5,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Shrine",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -645,7 +685,7 @@
     {
       "id": 79,
       "x": 2180.0,
-      "y": 618.5,
+      "y": 150.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": [
@@ -707,7 +747,7 @@
     {
       "id": 80,
       "x": 2530.0,
-      "y": 618.5,
+      "y": 150.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -729,10 +769,83 @@
     {
       "id": 81,
       "x": 2880.0,
-      "y": 618.5,
+      "y": 150.5,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Village_Night",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteAllCharacterUnit, Assembly-CSharp",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -751,7 +864,7 @@
     {
       "id": 82,
       "x": 3230.0,
-      "y": 618.5,
+      "y": 150.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": [
@@ -813,7 +926,7 @@
     {
       "id": 78,
       "x": 1830.0,
-      "y": 618.5,
+      "y": 150.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": [
@@ -823,6 +936,84 @@
             "position": {
               "x": 0.0,
               "y": -90.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Village_Night",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": null,
+            "position": {
+              "x": 0.0,
+              "y": 0.0
             },
             "scale": 1.0,
             "fade": false,
@@ -875,7 +1066,7 @@
     {
       "id": 83,
       "x": 1830.0,
-      "y": 1215.0,
+      "y": 1147.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -895,56 +1086,86 @@
       }
     },
     {
-      "id": 84,
-      "x": 2180.0,
-      "y": 1215.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "지훈의 등골이 서늘해졌다. 그들은 정말 살아 있는 인간일까? 아니면 과거의 의식에 의해 이승과 저승 사이에 존재하는 자들일까?",
-          "speed": 0.02,
-          "connections": [
-            85
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 85,
-      "x": 2530.0,
-      "y": 1215.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "그러던 중, 무녀 연화가 지훈의 앞을 가로막았다.",
-          "speed": 0.02,
-          "connections": [
-            86
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
       "id": 86,
       "x": 2880.0,
-      "y": 1215.0,
+      "y": 1147.0,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
+            "character": "Jihoon_Front",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "Yunhwa",
+            "position": {
+              "x": 0.0,
+              "y": -90.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -963,7 +1184,7 @@
     {
       "id": 87,
       "x": 3230.0,
-      "y": 1215.0,
+      "y": 1147.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -983,9 +1204,110 @@
       }
     },
     {
+      "id": 84,
+      "x": 2180.0,
+      "y": 1101.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "Jihoon_Front",
+            "position": {
+              "x": 0.0,
+              "y": -650.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Village_Day",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "지훈의 등골이 서늘해졌다. 그들은 정말 살아 있는 인간일까? 아니면 과거의 의식에 의해 이승과 저승 사이에 존재하는 자들일까?",
+          "speed": 0.02,
+          "connections": [
+            85
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
       "id": 88,
       "x": 1830.0,
-      "y": 1615.0,
+      "y": 1939.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -1007,7 +1329,7 @@
     {
       "id": 89,
       "x": 2180.0,
-      "y": 1615.0,
+      "y": 1939.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -1029,10 +1351,50 @@
     {
       "id": 90,
       "x": 2530.0,
-      "y": 1615.0,
+      "y": 1939.0,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Village",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -1051,10 +1413,44 @@
     {
       "id": 91,
       "x": 2880.0,
-      "y": 1615.0,
+      "y": 1939.0,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.DeleteAllCharacterUnit, Assembly-CSharp",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -1073,10 +1469,50 @@
     {
       "id": 92,
       "x": 3230.0,
-      "y": 1615.0,
+      "y": 1939.0,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "Jihoon_Front",
+            "position": {
+              "x": 0.0,
+              "y": -650.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -1095,7 +1531,7 @@
     {
       "id": 93,
       "x": 1830.0,
-      "y": 2015.0,
+      "y": 2339.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -1118,7 +1554,7 @@
     {
       "id": 95,
       "x": 2182.5,
-      "y": 1955.5,
+      "y": 2279.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": [
@@ -1144,7 +1580,7 @@
     {
       "id": 96,
       "x": 2185.5,
-      "y": 2191.5,
+      "y": 2515.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": [
@@ -1170,7 +1606,7 @@
     {
       "id": 97,
       "x": 2631.0,
-      "y": 2126.0,
+      "y": 2450.0,
       "nodeType": 3,
       "coroutineData": {
         "coroutines": []
@@ -1180,6 +1616,141 @@
           "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
           "connections": [
             -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 85,
+      "x": 2530.0,
+      "y": 1101.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "Yunhwa",
+            "position": {
+              "x": 400.0,
+              "y": -90.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "Jihoon_Front",
+            "position": {
+              "x": -400.0,
+              "y": -650.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.SetAllCharacterHighlight, Assembly-CSharp",
+            "value": true,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그러던 중, 무녀 연화가 지훈의 앞을 가로막았다.",
+          "speed": 0.02,
+          "connections": [
+            86
           ],
           "SelectionCount": 1
         }
