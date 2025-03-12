@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": -387.5,
-    "y": 642.5
+    "x": -1778.0,
+    "y": -528.5
   },
-  "zoomFactor": 0.7561437,
+  "zoomFactor": 0.8695652,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -528,7 +528,7 @@
           "script": "그들은 마을의 일부가 되어 영원히 그곳에 남게 되었고, 이 마을의 전설은 또 다른 이들을 기다리며 조용히 숨 쉬고 있었다.",
           "speed": 0.02,
           "connections": [
-            -999
+            48
           ],
           "SelectionCount": 1
         }
@@ -547,6 +547,86 @@
           "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
           "connections": [
             24
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 48,
+      "x": 2100.0,
+      "y": 866.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": null,
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "엔딩 컷 넣어주쇼",
+          "speed": 0.02,
+          "connections": [
+            49
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 49,
+      "x": 2529.0,
+      "y": 987.5,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
           ],
           "SelectionCount": 1
         }
