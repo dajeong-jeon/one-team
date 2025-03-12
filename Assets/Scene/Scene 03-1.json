@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": -1283.0,
-    "y": -2130.5
+    "x": -620.0,
+    "y": -1503.5
   },
-  "zoomFactor": 1.0,
+  "zoomFactor": 0.497176737,
   "debugNodeIndex": 24,
   "nodes": [
     {
@@ -2419,7 +2419,7 @@
           "script": "그들은 마을의 일부가 되어 영원히 그곳에 남게 되었고, 이 마을의 전설은 또 다른 이들을 기다리며 조용히 숨 쉬고 있었다.",
           "speed": 0.02,
           "connections": [
-            -999
+            48
           ],
           "SelectionCount": 1
         }
@@ -2516,6 +2516,24 @@
           "speed": 0.02,
           "connections": [
             45
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 48,
+      "x": 2242.5,
+      "y": 3794.5,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
           ],
           "SelectionCount": 1
         }
