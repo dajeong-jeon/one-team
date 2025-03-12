@@ -70,3 +70,19 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: 3954bda9e55d1431ba0b4b586016338d, type: 3}
       index: 13
       isKeyDuplicated: 0
+    - Key: Jihoon_afraid
+      Value: {fileID: 7915675542335162959, guid: d348190481a604c07970db184d6455ac, type: 3}
+      index: 14
+      isKeyDuplicated: 0
+    - Key: LeeHyung_afraid
+      Value: {fileID: 7915675542335162959, guid: 551d2f87eced54c6b8b41357507dc859, type: 3}
+      index: 15
+      isKeyDuplicated: 0
+    - Key: Minhyuk_afraid
+      Value: {fileID: 7915675542335162959, guid: 527b683e9678c4afcb9dd66869568a9e, type: 3}
+      index: 16
+      isKeyDuplicated: 0
+    - Key: Yunseo_afraid
+      Value: {fileID: 7915675542335162959, guid: 40a6e1f50740f4d45b2955435ac941f3, type: 3}
+      index: 17
+      isKeyDuplicated: 0
