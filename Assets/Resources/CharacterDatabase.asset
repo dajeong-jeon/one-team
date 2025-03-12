@@ -14,7 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characters:
     dictionaryList:
-    - Key: Jihoon
-      Value: {fileID: 7915675542335162959, guid: 16704d01e63ac4c6eb6f145b31d985a4, type: 3}
+    - Key: Chonjang
+      Value: {fileID: 7915675542335162959, guid: 9d774c1928a14485494ad05d4e78c81b, type: 3}
       index: 0
+      isKeyDuplicated: 0
+    - Key: Chonjang_Smile
+      Value: {fileID: 7915675542335162959, guid: e799d51e7485b4db5b033fc3aae914c2, type: 3}
+      index: 1
+      isKeyDuplicated: 0
+    - Key: Jihoon_Front
+      Value: {fileID: 7915675542335162959, guid: 0a6e49c8ed9c04c76a0ea973ee880c38, type: 3}
+      index: 2
       isKeyDuplicated: 0

@@ -15,19 +15,55 @@ MonoBehaviour:
   backgroundPrefab: {fileID: 363526241784019099, guid: 0d8528518c7bc8d45b338a92cb8cdf5b, type: 3}
   backgrounds:
     dictionaryList:
-    - Key: '# 01 Intro Red Moon'
-      Value: {fileID: 21300000, guid: 9293cf30805c64a059e40311d8e26ba6, type: 3}
+    - Key: black
+      Value: {fileID: 21300000, guid: 98ce6999eb258f946b992d5b6cfae8a9, type: 3}
       index: 0
       isKeyDuplicated: 0
-    - Key: '# 01 Library'
-      Value: {fileID: 21300000, guid: 251ad381838dd429cba5795d7975ce2c, type: 3}
+    - Key: Book_01
+      Value: {fileID: 21300000, guid: 5b71f2e5b7730471a961f146a80b6aab, type: 3}
       index: 1
       isKeyDuplicated: 0
-    - Key: '# 02 Ending'
-      Value: {fileID: 21300000, guid: 448b5d41a1eab4644a53b62c4ecaebd7, type: 3}
+    - Key: Book_02
+      Value: {fileID: 21300000, guid: 2ab7f4526aab64f81947139575610e38, type: 3}
       index: 2
       isKeyDuplicated: 0
-    - Key: '# 02 Ending_2'
-      Value: {fileID: 21300000, guid: 931b4272dbef941f59a6639a552b37f6, type: 3}
+    - Key: Book_03
+      Value: {fileID: 21300000, guid: 5a3c3c3ddff734afb95e3c1a08c561af, type: 3}
       index: 3
+      isKeyDuplicated: 0
+    - Key: btn_reload
+      Value: {fileID: 21300000, guid: 216cb8585eaee4491a1c9b7816519802, type: 3}
+      index: 4
+      isKeyDuplicated: 0
+    - Key: btn_start
+      Value: {fileID: 21300000, guid: d9d8516468260433bb5f714ebb6093d3, type: 3}
+      index: 5
+      isKeyDuplicated: 0
+    - Key: Intro_Red_moon
+      Value: {fileID: 21300000, guid: 9293cf30805c64a059e40311d8e26ba6, type: 3}
+      index: 6
+      isKeyDuplicated: 0
+    - Key: Jihoon_Room
+      Value: {fileID: 21300000, guid: 4ffdb9de25ea64df992b29e2e90784e8, type: 3}
+      index: 7
+      isKeyDuplicated: 0
+    - Key: Library
+      Value: {fileID: 21300000, guid: 251ad381838dd429cba5795d7975ce2c, type: 3}
+      index: 8
+      isKeyDuplicated: 0
+    - Key: Mirror_Jihoon
+      Value: {fileID: 21300000, guid: 448b5d41a1eab4644a53b62c4ecaebd7, type: 3}
+      index: 9
+      isKeyDuplicated: 0
+    - Key: Mirror_Jihoon_Zoom
+      Value: {fileID: 21300000, guid: 931b4272dbef941f59a6639a552b37f6, type: 3}
+      index: 10
+      isKeyDuplicated: 0
+    - Key: Start
+      Value: {fileID: 21300000, guid: 87d6d2fcf0f9647b0805f55b8f8bfc99, type: 3}
+      index: 11
+      isKeyDuplicated: 0
+    - Key: Village
+      Value: {fileID: 21300000, guid: 1d16665be89224476a3341ad4b779f30, type: 3}
+      index: 12
       isKeyDuplicated: 0
