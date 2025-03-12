@@ -151,3 +151,15 @@ MonoBehaviour:
       Value: {fileID: 21300000, guid: 16bc67042e56240ef9da7b59353ce236, type: 3}
       index: 33
       isKeyDuplicated: 0
+    - Key: Book_Don't _Froget
+      Value: {fileID: 21300000, guid: 1f21df05cc3fc4d32ac2d8b807865383, type: 3}
+      index: 34
+      isKeyDuplicated: 0
+    - Key: Jihoon_Hand
+      Value: {fileID: 21300000, guid: b8d6b282a99164257b5b84b3caa0b5e0, type: 3}
+      index: 35
+      isKeyDuplicated: 0
+    - Key: Night_Sky
+      Value: {fileID: 21300000, guid: 1db1c6f63221a4034b3c6ae88ff7cbe5, type: 3}
+      index: 36
+      isKeyDuplicated: 0
