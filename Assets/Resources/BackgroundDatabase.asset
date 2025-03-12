@@ -79,3 +79,11 @@ MonoBehaviour:
       Value: {fileID: 21300000, guid: c4d2df6ab41f849ce8c181f33550ba8b, type: 3}
       index: 15
       isKeyDuplicated: 0
+    - Key: Daily
+      Value: {fileID: 21300000, guid: 25548c3590fe54472b71c111e31099d2, type: 3}
+      index: 16
+      isKeyDuplicated: 0
+    - Key: Village_People
+      Value: {fileID: 21300000, guid: 1582267cfb4ec41e88e1fe13f6cd2f39, type: 3}
+      index: 17
+      isKeyDuplicated: 0

@@ -1,10 +1,10 @@
 {
   "position": {
-    "x": -440.0,
-    "y": -356.5
+    "x": -552.0,
+    "y": -230.5
   },
   "zoomFactor": 1.0,
-  "debugNodeIndex": -1,
+  "debugNodeIndex": 32,
   "nodes": [
     {
       "id": 2,
@@ -562,7 +562,7 @@
         "coroutines": [
           {
             "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "Book_01",
+            "backgroundImage": "black",
             "position": {
               "x": 0.0,
               "y": 0.0
