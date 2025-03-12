@@ -1,10 +1,10 @@
 {
   "position": {
-    "x": 141.5,
-    "y": 1545.0
+    "x": -244.0,
+    "y": -647.0
   },
   "zoomFactor": 1.0,
-  "debugNodeIndex": 68,
+  "debugNodeIndex": -1,
   "nodes": [
     {
       "id": 1,
@@ -59,208 +59,10 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "마을 가장 깊숙한 곳, 붉은 실로 감겨 있는 사당 앞의 돌제단이 이번 의식의 중심이 된다.",
-          "speed": 0.02,
-          "connections": [
-            2
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 2,
-      "x": 424.5,
-      "y": -1412.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "마을 주민들은 검은 두건을 쓰고 사당을 둘러싸고 있으며, 입을 모아 기이한 주문을 읊는다.",
-          "speed": 0.02,
-          "connections": [
-            3
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 3,
-      "x": 774.5,
-      "y": -1412.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "제단 한가운데, 실종된 친구가 붉은 실로 얽힌 채 누워 있다.",
+          "script": "마을 가장 깊숙한 곳, 붉은 실로 감겨 있는 사당 앞의 제단 한가운데, 실종된 친구가 붉은 실로 얽힌 채 누워 있다.",
           "speed": 0.02,
           "connections": [
             4
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 4,
-      "x": 1124.5,
-      "y": -1412.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "바닥에는 조선시대 한자로 새겨진 봉인문이 빛나며, 검은 달빛이 사당의 문에 비추기 시작한다.",
-          "speed": 0.02,
-          "connections": [
-            5
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 5,
-      "x": 1474.5,
-      "y": -1412.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "이도현",
-          "subName": "촌장",
-          "script": "검은 달이 뜨는 밤, 우리는 잊힌 존재들을 부활시킨다.",
-          "speed": 0.02,
-          "connections": [
-            6
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 6,
-      "x": 74.5,
-      "y": -1012.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "지훈은 마을에서 발견한 조선시대 문서와 부적을 떠올린다.",
-          "speed": 0.02,
-          "connections": [
-            7
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 7,
-      "x": 424.5,
-      "y": -1012.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "그는 사당 앞의 돌기둥에서 오래된 부적이 붙어있는 것을 발견한다.",
-          "speed": 0.02,
-          "connections": [
-            8
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 8,
-      "x": 774.5,
-      "y": -1012.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "그 부적에는 '검은 달이 뜨는 밤, 저승과 이승의 문이 열린다. 붉은 실이 끊어지면, 영원히 닫히리라.'",
-          "speed": 0.02,
-          "connections": [
-            9
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 9,
-      "x": 1124.5,
-      "y": -1012.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "그는 순간 깨닫는다. 이 마을은 저승과 연결된 공간이다.",
-          "speed": 0.02,
-          "connections": [
-            10
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 10,
-      "x": 1474.5,
-      "y": -1012.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "붉은 실은 이 마을을 유지하는 결계고, 이 부적이 이를 막고 있었어.",
-          "speed": 0.02,
-          "connections": [
-            11
           ],
           "SelectionCount": 1
         }
@@ -277,9 +79,9 @@
       "actionData": {
         "action": {
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
+          "name": "지훈",
           "subName": "",
-          "script": "그런데 부적이 약해지면서 결계가 점점 깨지고 있었던 거야!",
+          "script": "그래 저 부적이 약해지면서 결계가 점점 깨지고 있었던 거야!",
           "speed": 0.02,
           "connections": [
             12
@@ -304,73 +106,7 @@
           "script": "지훈은 부적을 제단 한가운데로 가져가며, 사당의 봉인과 연결되어 있는 것을 확인한다.",
           "speed": 0.02,
           "connections": [
-            13
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 13,
-      "x": 774.5,
-      "y": -612.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "부적에는 붉은 잉크로 '진(鎭)', '봉(封)', '귀(鬼)'라는 한자가 새겨져 있었다.",
-          "speed": 0.02,
-          "connections": [
-            14
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 14,
-      "x": 1124.5,
-      "y": -612.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "그는 문서에 적힌 대로 부적을 제단 위에서 불태우면, 봉인이 다시 활성화될 것이라는 것을 깨닫는다.",
-          "speed": 0.02,
-          "connections": [
-            15
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 15,
-      "x": 1474.5,
-      "y": -612.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "그는 부적을 제단 위에 올리고 불을 붙인다.",
-          "speed": 0.02,
-          "connections": [
-            16
+            44
           ],
           "SelectionCount": 1
         }
@@ -389,7 +125,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "불이 붙자, 부적에서 검은 연기가 피어오르고, 바닥의 한자가 빛나기 시작한다.",
+          "script": "불이 붙자, 부적에서 검은 연기가 피어오르고, 오래된 부적의 글자가 빛나기 시작하였다.",
           "speed": 0.02,
           "connections": [
             17
@@ -455,7 +191,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "연화",
           "subName": "무녀",
-          "script": "네가… 봉인을 다시 활성화시키는 건가?",
+          "script": "또 다시 네가… 봉인을 다시 활성화시키는 건가?",
           "speed": 0.02,
           "connections": [
             20
@@ -475,7 +211,7 @@
       "actionData": {
         "action": {
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "이도현",
+          "name": "이남춘",
           "subName": "촌장",
           "script": "멈춰라! 그 봉인은 이 마을을 없애버릴 것이다!",
           "speed": 0.02,
@@ -543,51 +279,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "지훈은 결계를 완전히 깨기 위해 남은 마지막 봉인을 풀기로 한다.",
-          "speed": 0.02,
-          "connections": [
-            24
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 24,
-      "x": 1124.5,
-      "y": 187.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "제단을 감고 있던 붉은 실은 마을과 저승을 연결하는 마지막 연결고리였다.",
-          "speed": 0.02,
-          "connections": [
-            25
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 25,
-      "x": 1474.5,
-      "y": 187.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "지훈은 손을 뻗어 실을 잡고, 힘껏 끊어낸다.",
+          "script": "지훈은 결계를 완전히 깨기 위해 손을 뻗어 실을 잡고, 힘껏 끊어낸다.",
           "speed": 0.02,
           "connections": [
             26
@@ -597,9 +289,225 @@
       }
     },
     {
+      "id": -1,
+      "x": -296.5,
+      "y": -1407.0,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            1
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 4,
+      "x": 409.0,
+      "y": -1409.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "바닥에는 조선시대 한자로 새겨진 봉인문이 빛나며, 검은 달빛이 사당의 문에 비추기 시작한다.",
+          "speed": 0.02,
+          "connections": [
+            5
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 8,
+      "x": 411.0,
+      "y": -968.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": " '검은 달이 뜨는 밤, 저승과 이승의 문이 열린다. 붉은 실이 끊어지면, 영원히 닫히리라.'",
+          "speed": 0.02,
+          "connections": [
+            9
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 10,
+      "x": 1096.0,
+      "y": -961.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "붉은 실은 이 마을을 유지하는 결계고, 사당의 부적이 이를 막고 있었어.",
+          "speed": 0.02,
+          "connections": [
+            11
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 5,
+      "x": 730.0,
+      "y": -1409.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "이남춘",
+          "subName": "촌장",
+          "script": "검은 달이 뜨는 밤, 우리는 잊힌 존재들을 부활시킨다.",
+          "speed": 0.02,
+          "connections": [
+            7
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 7,
+      "x": 1083.0,
+      "y": -1409.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그는 사당 앞의 돌제단에 오래된 부적이 붙어있는 것을 발견한다.",
+          "speed": 0.02,
+          "connections": [
+            6
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 6,
+      "x": 73.5,
+      "y": -968.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "지훈은 마을에서 발견한 부적과 조선시대 문서에 적혀있는 문장이 떠올랐다.",
+          "speed": 0.02,
+          "connections": [
+            8
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 9,
+      "x": 748.5,
+      "y": -969.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그는 순간 깨닫는다. 이 마을은 저승과 연결된 공간이다.",
+          "speed": 0.02,
+          "connections": [
+            10
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 14,
+      "x": 1104.5,
+      "y": -618.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "연화",
+          "subName": "무녀",
+          "script": "내가 사람들을 잠깐이나마 막고 있을게!",
+          "speed": 0.02,
+          "connections": [
+            15
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 44,
+      "x": 746.5,
+      "y": -612.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "연화",
+          "subName": "무녀",
+          "script": "지훈!  부적을 제단 위에서 불태워야해 그럼 봉인이 다시 활성화 될거야!",
+          "speed": 0.02,
+          "connections": [
+            14
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
       "id": 26,
-      "x": 74.5,
-      "y": 587.5,
+      "x": 1128.0,
+      "y": 185.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -619,97 +527,9 @@
       }
     },
     {
-      "id": 27,
-      "x": 424.5,
-      "y": 587.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "검은 달빛이 깜빡이며, 마을 곳곳에서 안개가 피어오르기 시작한다.",
-          "speed": 0.02,
-          "connections": [
-            28
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 28,
-      "x": 774.5,
-      "y": 587.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "마을이 사라지기 시작하는 것이다.",
-          "speed": 0.02,
-          "connections": [
-            29
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 29,
-      "x": 1124.5,
-      "y": 587.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "땅이 갈라지고, 마을을 유지하던 힘이 점점 사라진다.",
-          "speed": 0.02,
-          "connections": [
-            30
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 30,
-      "x": 1474.5,
-      "y": 587.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "원혼들이 하나둘씩 저승으로 떠나며, 주민들도 점점 투명해져 간다.",
-          "speed": 0.02,
-          "connections": [
-            31
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
       "id": 31,
-      "x": 74.5,
-      "y": 987.5,
+      "x": 73.5,
+      "y": 557.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -718,8 +538,8 @@
         "action": {
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "연화",
-          "subName": "",
-          "script": "네가 우리를 해방시켰구나… 이제 돌아가.",
+          "subName": "무녀",
+          "script": "네가 또 다시 우리를 해방시켰구나… 이제 돌아가.",
           "speed": 0.02,
           "connections": [
             32
@@ -730,8 +550,8 @@
     },
     {
       "id": 32,
-      "x": 424.5,
-      "y": 987.5,
+      "x": 426.0,
+      "y": 561.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -751,9 +571,31 @@
       }
     },
     {
+      "id": 27,
+      "x": 1472.5,
+      "y": 189.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "검은 달빛 아래 안개가 피어오르며 마을이 사라지기 시작한다. 땅이 갈라지고, 힘을 잃은 원혼과 주민들이 하나둘 저승으로 떠난다.",
+          "speed": 0.02,
+          "connections": [
+            31
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
       "id": 33,
-      "x": 774.5,
-      "y": 987.5,
+      "x": 779.0,
+      "y": 564.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -763,54 +605,10 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "지훈과 친구들은 사당에서 빠져나와, 마을 입구로 달려간다.",
+          "script": "지훈과 친구들은 마을 입구로 달려가고, 사라지는 마을과 함께 공간이 흐려진다. 마지막 순간, 지훈이 돌아본 사당엔 아무것도 남아있지 않았다.",
           "speed": 0.02,
           "connections": [
-            34
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 34,
-      "x": 1124.5,
-      "y": 987.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "하지만 마을이 점점 사라지면서, 공간 자체가 흐려지고 있다.",
-          "speed": 0.02,
-          "connections": [
-            35
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 35,
-      "x": 1474.5,
-      "y": 987.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "마지막 순간, 지훈은 다시 한번 사당을 돌아본다. 그곳에는 더 이상 아무것도 없었다.",
-          "speed": 0.02,
-          "connections": [
-            36
+            -999
           ],
           "SelectionCount": 1
         }
@@ -818,8 +616,8 @@
     },
     {
       "id": 36,
-      "x": 74.5,
-      "y": 1387.5,
+      "x": 1123.5,
+      "y": 571.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -840,8 +638,8 @@
     },
     {
       "id": 37,
-      "x": 424.5,
-      "y": 1387.5,
+      "x": 1464.0,
+      "y": 570.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -854,28 +652,6 @@
           "script": "마을의 흔적은 어디에도 없었으며, 밤하늘에는 검은 달이 아닌 맑은 달이 떠 있었다.",
           "speed": 0.02,
           "connections": [
-            38
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 38,
-      "x": 774.5,
-      "y": 1387.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "친구들은 서로를 확인하며 살아있음을 실감한다.",
-          "speed": 0.02,
-          "connections": [
             39
           ],
           "SelectionCount": 1
@@ -884,8 +660,8 @@
     },
     {
       "id": 39,
-      "x": 1124.5,
-      "y": 1387.5,
+      "x": 82.5,
+      "y": 963.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -906,8 +682,8 @@
     },
     {
       "id": 40,
-      "x": 1474.5,
-      "y": 1387.5,
+      "x": 432.5,
+      "y": 963.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -928,8 +704,8 @@
     },
     {
       "id": 41,
-      "x": 74.5,
-      "y": 1787.5,
+      "x": 782.0,
+      "y": 961.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -950,8 +726,8 @@
     },
     {
       "id": 42,
-      "x": 424.5,
-      "y": 1787.5,
+      "x": 1132.0,
+      "y": 961.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -972,8 +748,8 @@
     },
     {
       "id": 43,
-      "x": 774.5,
-      "y": 1787.5,
+      "x": 1482.0,
+      "y": 961.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -983,8 +759,106 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "지훈은 문서를 덮으며 조용히 속삭인다. 나는 결코 잊지 않을 거야.",
+          "script": "지훈은 문서를 덮으며 조용히 속삭인다. ",
           "speed": 0.02,
+          "connections": [
+            45
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 45,
+      "x": 1846.0,
+      "y": 964.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "지훈",
+          "subName": null,
+          "script": "나는 결코 잊지 않을 거야.",
+          "speed": 0.02,
+          "connections": [
+            46
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 46,
+      "x": 2219.0,
+      "y": 993.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": null,
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            47
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 47,
+      "x": 2625.0,
+      "y": 1041.5,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
           "connections": [
             -999
           ],
@@ -993,18 +867,22 @@
       }
     },
     {
-      "id": -1,
-      "x": -296.5,
-      "y": -1407.0,
-      "nodeType": 1,
+      "id": 15,
+      "x": 1475.5,
+      "y": -615.0,
+      "nodeType": 2,
       "coroutineData": {
         "coroutines": []
       },
       "actionData": {
         "action": {
-          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그는 부적을 제단 위에 올리고 불을 붙인다.",
+          "speed": 0.02,
           "connections": [
-            1
+            16
           ],
           "SelectionCount": 1
         }
