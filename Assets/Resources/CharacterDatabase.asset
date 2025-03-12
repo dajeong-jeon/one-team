@@ -26,3 +26,11 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: 0a6e49c8ed9c04c76a0ea973ee880c38, type: 3}
       index: 2
       isKeyDuplicated: 0
+    - Key: Jihoon_Side
+      Value: {fileID: 7915675542335162959, guid: 3b62bcb12a9024e7799759ec54d0eace, type: 3}
+      index: 3
+      isKeyDuplicated: 0
+    - Key: Jihoon_Side_eye
+      Value: {fileID: 7915675542335162959, guid: 7580d74d165eb4a678ec7599e0e16187, type: 3}
+      index: 4
+      isKeyDuplicated: 0
