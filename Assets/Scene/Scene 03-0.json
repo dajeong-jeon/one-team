@@ -1,0 +1,405 @@
+{
+  "position": {
+    "x": -953.0,
+    "y": 623.5
+  },
+  "zoomFactor": 0.7561437,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": 50,
+      "x": 1420.5,
+      "y": -568.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "지훈은 마을의 비밀을 파헤치기 위해 조사를 이어갔다. 마을에는 오래된 조선시대의 주술적 요소가 존재함을 깨달은 그는, 이곳에 얽힌 수수께끼를 풀어야만 했다.",
+          "speed": 0.02,
+          "connections": [
+            51
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 51,
+      "x": 1770.5,
+      "y": -568.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "조선시대 기록 발견: 마을의 창고에서 오래된 문서와 부적을 발견했다.",
+          "speed": 0.02,
+          "connections": [
+            52
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 52,
+      "x": 2120.5,
+      "y": -568.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "문서에는 '검은 달이 뜰 때, 봉인이 약해지고, 사라진 자들은 돌아온다'라는 내용이 적혀 있었다.",
+          "speed": 0.02,
+          "connections": [
+            53
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 53,
+      "x": 2470.5,
+      "y": -568.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "이를 통해 지훈은 마을이 실종된 자들을 불러들이는 의식을 행하고 있다는 사실을 깨닫게 되었다.",
+          "speed": 0.02,
+          "connections": [
+            54
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 54,
+      "x": 2820.5,
+      "y": -568.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "붉은 실의 의미: 마을 곳곳에는 붉은 실이 엉켜 있는 곳이 있었다.",
+          "speed": 0.02,
+          "connections": [
+            55
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 55,
+      "x": 1420.5,
+      "y": -168.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "봉인된 사당의 문도 붉은 실로 감싸여 있으며, 주민들은 절대 건드리지 말라고 경고했다.",
+          "speed": 0.02,
+          "connections": [
+            56
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 56,
+      "x": 1770.5,
+      "y": -168.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "하지만 한 노파가 몰래 지훈에게 '붉은 실이 끊어지면, 봉인이 풀리게 된다'고 속삭였다.",
+          "speed": 0.02,
+          "connections": [
+            57
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 57,
+      "x": 2120.5,
+      "y": -168.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "주민들의 진짜 정체: 마을의 사람들은 단순한 인간이 아니라, 과거 의식에 의해 이승과 저승 사이에 존재하는 자들임을 암시했다.",
+          "speed": 0.02,
+          "connections": [
+            58
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 58,
+      "x": 2470.5,
+      "y": -168.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "밤이 되면 마을 사람들의 행동이 달라지며, 일부는 과거 시대의 언어를 사용하기 시작했다.",
+          "speed": 0.02,
+          "connections": [
+            59
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 59,
+      "x": 2820.5,
+      "y": -168.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "무녀 연화의 수상한 행적: 마을의 무녀 연화는 지훈을 계속 주시하며, '너는 이곳을 떠나지 못할 것이다'라고 경고했다.",
+          "speed": 0.02,
+          "connections": [
+            60
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 60,
+      "x": 1420.5,
+      "y": 231.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "연화",
+          "subName": "무녀",
+          "script": "넌 여기에 올 운명이었어. 네 친구를 찾으려면, 의식에 참여해야 해.",
+          "speed": 0.02,
+          "connections": [
+            61
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 61,
+      "x": 1770.5,
+      "y": 231.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그녀가 무엇을 의미하는지는 불분명했지만, 실종된 친구와 의식이 깊은 연관이 있음을 암시했다.",
+          "speed": 0.02,
+          "connections": [
+            62
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 62,
+      "x": 2120.5,
+      "y": 231.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "지훈은 마을에서 벌어지는 의식의 실체를 어느 정도 파악하게 되었다.",
+          "speed": 0.02,
+          "connections": [
+            63
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 63,
+      "x": 2470.5,
+      "y": 231.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그리고 검은 달이 떠오르면서 선택의 기로에 놓이게 되었다.",
+          "speed": 0.02,
+          "connections": [
+            64
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 64,
+      "x": 2820.5,
+      "y": 231.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그는 친구를 구하기 위해 의식에 참여할 것인지, 아니면 다른 방법을 찾아야 할지 고민에 빠졌다.",
+          "speed": 0.02,
+          "connections": [
+            65
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 65,
+      "x": 1420.5,
+      "y": 631.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "의식에 참여하여 친구를 구하려고 한다.",
+            "붉은 실을 끊어 봉인을 풀고 마을을 탈출하려 한다.",
+            "무녀 연화에게 의식에 대해 더 많은 정보를 얻으려 한다."
+          ],
+          "connections": [
+            -999,
+            -999,
+            -999
+          ],
+          "SelectionCount": 3
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": 1093.5,
+      "y": -564.0,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            50
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 66,
+      "x": 1775.5,
+      "y": -915.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "부적,문서 줍는거 추가할래",
+          "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}
