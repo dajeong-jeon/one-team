@@ -87,3 +87,19 @@ MonoBehaviour:
       Value: {fileID: 21300000, guid: 1582267cfb4ec41e88e1fe13f6cd2f39, type: 3}
       index: 17
       isKeyDuplicated: 0
+    - Key: Storage
+      Value: {fileID: 21300000, guid: 7fb5acf20e60c4b7ca603f2bfba6c276, type: 3}
+      index: 18
+      isKeyDuplicated: 0
+    - Key: Village_Day
+      Value: {fileID: 21300000, guid: 1a48b2af3643c43a3a8fd38b23f0f454, type: 3}
+      index: 19
+      isKeyDuplicated: 0
+    - Key: Dream_Silhouette
+      Value: {fileID: 21300000, guid: 53a9dada4d6ec46f6a27cc3aa747b68e, type: 3}
+      index: 20
+      isKeyDuplicated: 0
+    - Key: Forest_Smoke_X
+      Value: {fileID: 21300000, guid: 479cb81d03fec474a98db6ded56ac857, type: 3}
+      index: 21
+      isKeyDuplicated: 0
