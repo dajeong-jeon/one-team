@@ -22,71 +22,75 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: e799d51e7485b4db5b033fc3aae914c2, type: 3}
       index: 1
       isKeyDuplicated: 0
+    - Key: Chonjang_Angry
+      Value: {fileID: 7915675542335162959, guid: 26378e63aa7e744e5a8bff2d4d64490b, type: 3}
+      index: 2
+      isKeyDuplicated: 0
     - Key: Jihoon_Front
       Value: {fileID: 7915675542335162959, guid: 0a6e49c8ed9c04c76a0ea973ee880c38, type: 3}
-      index: 2
+      index: 3
       isKeyDuplicated: 0
     - Key: Jihoon_Side
       Value: {fileID: 7915675542335162959, guid: 3b62bcb12a9024e7799759ec54d0eace, type: 3}
-      index: 3
+      index: 4
       isKeyDuplicated: 0
     - Key: Jihoon_Side_eye
       Value: {fileID: 7915675542335162959, guid: 7580d74d165eb4a678ec7599e0e16187, type: 3}
-      index: 4
+      index: 5
       isKeyDuplicated: 0
     - Key: Jihoon_Side_Open_Mouth
       Value: {fileID: 7915675542335162959, guid: 1493d15a424a749858e527e312930895, type: 3}
-      index: 5
+      index: 6
       isKeyDuplicated: 0
     - Key: LeeHyung
       Value: {fileID: 7915675542335162959, guid: 771c0f8d5d3924e5387845269656922b, type: 3}
-      index: 6
+      index: 7
       isKeyDuplicated: 0
     - Key: Minhyuk
       Value: {fileID: 7915675542335162959, guid: 3afeac33f3f064329b6cb9b9411afaa4, type: 3}
-      index: 7
+      index: 8
       isKeyDuplicated: 0
     - Key: Yunseo
       Value: {fileID: 7915675542335162959, guid: a404a0660db1843de8ea4bcf1812ceb3, type: 3}
-      index: 8
+      index: 9
       isKeyDuplicated: 0
     - Key: Jihoon_Colse_eye
       Value: {fileID: 7915675542335162959, guid: 593c5acf74a5c44039fa909a78899f3e, type: 3}
-      index: 9
+      index: 10
       isKeyDuplicated: 0
     - Key: Paper
       Value: {fileID: 7915675542335162959, guid: 82677553bb4314b299acd71a05db1ac8, type: 3}
-      index: 10
+      index: 11
       isKeyDuplicated: 0
     - Key: Talisman
       Value: {fileID: 7915675542335162959, guid: a5d39b352f13042f3b4c7fc02da245e6, type: 3}
-      index: 11
+      index: 12
       isKeyDuplicated: 0
     - Key: Old_Woman
       Value: {fileID: 7915675542335162959, guid: 9578815e9fd9d4a17b65792fa8c191f6, type: 3}
-      index: 12
+      index: 13
       isKeyDuplicated: 0
     - Key: Yunhwa
       Value: {fileID: 7915675542335162959, guid: c886a96414b5845bcaea93d386b08831, type: 3}
-      index: 13
+      index: 14
       isKeyDuplicated: 0
     - Key: Chonjang_Bitter
       Value: {fileID: 7915675542335162959, guid: 3954bda9e55d1431ba0b4b586016338d, type: 3}
-      index: 14
+      index: 15
       isKeyDuplicated: 0
     - Key: Jihoon_afraid
       Value: {fileID: 7915675542335162959, guid: d348190481a604c07970db184d6455ac, type: 3}
-      index: 15
+      index: 16
       isKeyDuplicated: 0
     - Key: LeeHyung_afraid
       Value: {fileID: 7915675542335162959, guid: 551d2f87eced54c6b8b41357507dc859, type: 3}
-      index: 16
+      index: 17
       isKeyDuplicated: 0
     - Key: Minhyuk_afraid
       Value: {fileID: 7915675542335162959, guid: 527b683e9678c4afcb9dd66869568a9e, type: 3}
-      index: 17
+      index: 18
       isKeyDuplicated: 0
     - Key: Yunseo_afraid
       Value: {fileID: 7915675542335162959, guid: 40a6e1f50740f4d45b2955435ac941f3, type: 3}
-      index: 18
+      index: 19
       isKeyDuplicated: 0
