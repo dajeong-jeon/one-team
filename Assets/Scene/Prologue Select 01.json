@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 527.5,
-    "y": -427.5
+    "x": 1672.0,
+    "y": -873.0
   },
-  "zoomFactor": 0.657516241,
+  "zoomFactor": 1.0,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -859,7 +859,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "방 안은 어둠으로 가득 차 있었고, 친구들 중 한 명이 사라진 것을 깨달았다.",
+          "script": "방 안은 어둠으로 가득 차 있었고, 지훈은 민혁이 사라진 것을 알게 되었다.",
           "speed": 0.02,
           "connections": [
             120
