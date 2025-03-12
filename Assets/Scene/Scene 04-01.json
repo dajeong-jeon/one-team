@@ -1,0 +1,310 @@
+{
+  "position": {
+    "x": -273.0,
+    "y": -241.5
+  },
+  "zoomFactor": 0.7561437,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": 1,
+      "x": 251.0,
+      "y": -144.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "지훈은 결정을 내려야 했다. 붉은 실을 끊어 봉인을 풀면, 마을에서 벗어날 수 있을지도 모른다.",
+          "speed": 0.02,
+          "connections": [
+            2
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 2,
+      "x": 601.0,
+      "y": -144.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그는 친구들과 함께 사당으로 향했다. 떨리는 손으로 실을 잡아당기자, 붉은 실이 뚝 하고 끊어졌다.",
+          "speed": 0.02,
+          "connections": [
+            3
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 3,
+      "x": 951.0,
+      "y": -144.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그 순간, 사당에서 울부짖음이 터져 나왔다. 땅이 흔들리고, 마을 전체가 요동치기 시작했다.",
+          "speed": 0.02,
+          "connections": [
+            4
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 4,
+      "x": 1301.0,
+      "y": -144.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "마치 봉인된 무언가가 풀려나기라도 한 듯, 안개 속에서 검은 형체들이 기어 나왔다.",
+          "speed": 0.02,
+          "connections": [
+            5
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 5,
+      "x": 1651.0,
+      "y": -144.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그것은 실종된 자들이 아니었다. 오히려, 마을을 지배하는 오래된 저주 그 자체였다.",
+          "speed": 0.02,
+          "connections": [
+            6
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 6,
+      "x": 251.0,
+      "y": 255.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "비명을 지르며 도망치려 했지만, 이미 늦었다. 어둠은 순식간에 지훈과 친구들을 집어삼켰다.",
+          "speed": 0.02,
+          "connections": [
+            7
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 7,
+      "x": 601.0,
+      "y": 255.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그리고 그들이 사라진 자리에는, 붉은 실이 엉켜 있는 또 하나의 새로운 사당이 생겨나 있었다.",
+          "speed": 0.02,
+          "connections": [
+            8
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 8,
+      "x": 951.0,
+      "y": 255.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "마을은 다시 평온해졌다. 마치 아무 일도 없었던 것처럼.",
+          "speed": 0.02,
+          "connections": [
+            9
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 9,
+      "x": 1301.0,
+      "y": 255.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그러나, 그곳에는 더 이상 지훈과 그의 친구들이 존재하지 않았다.",
+          "speed": 0.02,
+          "connections": [
+            10
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 10,
+      "x": 1651.0,
+      "y": 255.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그들은 마을의 저주 속에 영원히 갇히게 되었다.",
+          "speed": 0.02,
+          "connections": [
+            11
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 11,
+      "x": 251.0,
+      "y": 655.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그리고, 이 마을의 전설은 또 다른 이들을 기다리며 조용히 숨 쉬고 있었다.",
+          "speed": 0.02,
+          "connections": [
+            12
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": -105.0,
+      "y": -105.0,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            1
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 12,
+      "x": 601.0,
+      "y": 655.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "End",
+          "speed": 0.02,
+          "connections": [
+            14
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 14,
+      "x": 982.5,
+      "y": 726.5,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}
