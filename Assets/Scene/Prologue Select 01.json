@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 1770.0,
-    "y": 148.5
+    "x": 527.5,
+    "y": -427.5
   },
-  "zoomFactor": 0.497176737,
+  "zoomFactor": 0.657516241,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -151,77 +151,6 @@
           "speed": 0.02,
           "connections": [
             36
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 40,
-      "x": -2990.5,
-      "y": -93.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
-          "scripts": [
-            "마을의 경계에서 이상한 소리를 듣고 그 출처를 조사하기로 한다.",
-            "마을로 들어가기 전, 각자 준비물을 점검하고 계획을 재확인한다.",
-            "지훈이 어린 시절 꿈에서 본 장면과 일치하는 것을 발견하고 이를 친구들과 공유한다.",
-            "윤서가 마을의 전설에 대해 더 많은 정보를 찾기 위해 주변을 탐색하자고 제안한다."
-          ],
-          "connections": [
-            41,
-            42,
-            -999,
-            -999
-          ],
-          "SelectionCount": 4
-        }
-      }
-    },
-    {
-      "id": 42,
-      "x": -2514.5,
-      "y": 226.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "해설자",
-          "subName": "",
-          "script": "마을로 들어가기 전, 그들은 각자 준비물을 점검하고 계획을 재확인했다.",
-          "speed": 0.02,
-          "connections": [
-            -999
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 41,
-      "x": -2514.5,
-      "y": -93.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "해설자",
-          "subName": "",
-          "script": "그들은 마을의 경계에서 이상한 소리를 듣고 그 출처를 조사하기로 했다.",
-          "speed": 0.02,
-          "connections": [
-            -999
           ],
           "SelectionCount": 1
         }
@@ -933,7 +862,7 @@
           "script": "방 안은 어둠으로 가득 차 있었고, 친구들 중 한 명이 사라진 것을 깨달았다.",
           "speed": 0.02,
           "connections": [
-            -999
+            120
           ],
           "SelectionCount": 1
         }
@@ -976,6 +905,99 @@
           "subName": "",
           "script": "민혁이 보이지 않았다. 지훈은 당황하며 방을 나섰다.",
           "speed": 0.02,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 120,
+      "x": -1160.0,
+      "y": 996.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "친구를 찾지 않고 일단 마을을 떠난다.",
+            "친구를 찾는다."
+          ],
+          "connections": [
+            121,
+            122
+          ],
+          "SelectionCount": 2
+        }
+      }
+    },
+    {
+      "id": 121,
+      "x": -830.0,
+      "y": 958.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "leave 01",
+            "operation": 0,
+            "value": 0,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            123
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 122,
+      "x": -827.0,
+      "y": 1194.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "leave 01",
+            "operation": 0,
+            "value": 0,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            123
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 123,
+      "x": -387.0,
+      "y": 1124.5,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
           "connections": [
             -999
           ],
