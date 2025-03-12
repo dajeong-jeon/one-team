@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": 1452.0,
-    "y": -135.0
+    "x": 1563.0,
+    "y": -206.0
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": -1,
@@ -570,7 +570,7 @@
             "$type": "Dunward.Capricorn.DeleteForegroundUnit, Assembly-CSharp",
             "backgroundImage": null,
             "fade": true,
-            "elapsedTime": 1.5,
+            "elapsedTime": 2.0,
             "lerpCurve": {
               "keys": [
                 {
@@ -586,8 +586,8 @@
                 {
                   "time": 1.0,
                   "value": 1.0,
-                  "inTangent": 0.0,
-                  "outTangent": 0.0,
+                  "inTangent": 2.0,
+                  "outTangent": 2.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
                   "weightedMode": 0,

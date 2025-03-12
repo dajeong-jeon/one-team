@@ -50,3 +50,15 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: 593c5acf74a5c44039fa909a78899f3e, type: 3}
       index: 8
       isKeyDuplicated: 0
+    - Key: Paper
+      Value: {fileID: 7915675542335162959, guid: 82677553bb4314b299acd71a05db1ac8, type: 3}
+      index: 9
+      isKeyDuplicated: 0
+    - Key: Talisman
+      Value: {fileID: 7915675542335162959, guid: a5d39b352f13042f3b4c7fc02da245e6, type: 3}
+      index: 10
+      isKeyDuplicated: 0
+    - Key: Old_Woman
+      Value: {fileID: 7915675542335162959, guid: 9578815e9fd9d4a17b65792fa8c191f6, type: 3}
+      index: 11
+      isKeyDuplicated: 0

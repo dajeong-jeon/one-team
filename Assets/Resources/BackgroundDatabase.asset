@@ -107,3 +107,23 @@ MonoBehaviour:
       Value: {fileID: 21300000, guid: d46e4d333bc9642a19bcaec1ba2a1808, type: 3}
       index: 22
       isKeyDuplicated: 0
+    - Key: Paper
+      Value: {fileID: 21300000, guid: 78c0636b191294357860cbfe144c80fb, type: 3}
+      index: 23
+      isKeyDuplicated: 0
+    - Key: Red_String
+      Value: {fileID: 21300000, guid: e3908facda24943839c7a5487d8062e0, type: 3}
+      index: 24
+      isKeyDuplicated: 0
+    - Key: Shrine
+      Value: {fileID: 21300000, guid: df2c3ee9fbd8146669893caa89d70ffa, type: 3}
+      index: 25
+      isKeyDuplicated: 0
+    - Key: Talisman
+      Value: {fileID: 21300000, guid: a9d7c07b90d434ef5a9e203aee06975e, type: 3}
+      index: 26
+      isKeyDuplicated: 0
+    - Key: Paper_Zoom
+      Value: {fileID: 21300000, guid: 4930b39d8eb4f457c9881416e63a08de, type: 3}
+      index: 27
+      isKeyDuplicated: 0
