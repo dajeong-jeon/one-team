@@ -66,3 +66,7 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: c886a96414b5845bcaea93d386b08831, type: 3}
       index: 12
       isKeyDuplicated: 0
+    - Key: Chonjang_Bitter
+      Value: {fileID: 7915675542335162959, guid: 3954bda9e55d1431ba0b4b586016338d, type: 3}
+      index: 13
+      isKeyDuplicated: 0

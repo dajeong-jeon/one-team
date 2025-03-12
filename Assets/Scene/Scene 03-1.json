@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": -1366.0,
-    "y": -2941.0
+    "x": -1283.0,
+    "y": -2130.5
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": 24,
@@ -623,6 +623,45 @@
               "postWrapMode": 8
             },
             "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Black_Moon_People",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
           }
         ]
       },
@@ -708,7 +747,47 @@
       "y": 2247.5,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "Chonjang_Bitter",
+            "position": {
+              "x": 0.0,
+              "y": -350.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 1.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -733,7 +812,7 @@
         "coroutines": [
           {
             "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
-            "character": "Chonjang",
+            "character": "Chonjang_Bitter",
             "fade": false,
             "elapsedTime": 0.0,
             "lerpCurve": {
