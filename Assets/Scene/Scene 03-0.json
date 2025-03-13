@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": -1693.5,
-    "y": -1556.5
+    "x": -2101.5,
+    "y": 1298.0
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": 68,
@@ -187,6 +187,10 @@
       "nodeType": 2,
       "coroutineData": {
         "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ClearDialogueTextUnit, Assembly-CSharp",
+            "isWaitingUntilFinish": false
+          },
           {
             "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
             "character": "Paper_Txt",
