@@ -110,3 +110,23 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: 5ff962115279f4ad8a143615e4345e5b, type: 3}
       index: 23
       isKeyDuplicated: 0
+    - Key: Ghost_01
+      Value: {fileID: 7915675542335162959, guid: 72b2388326a044cc594c15b11d6f3d85, type: 3}
+      index: 24
+      isKeyDuplicated: 0
+    - Key: Ghost_02
+      Value: {fileID: 7915675542335162959, guid: a7a40c2bf93684bbb85ca73a936df838, type: 3}
+      index: 25
+      isKeyDuplicated: 0
+    - Key: Ghost_03
+      Value: {fileID: 7915675542335162959, guid: b2f45e4fe381c408fa9729634dead56b, type: 3}
+      index: 26
+      isKeyDuplicated: 0
+    - Key: Paper_Txt
+      Value: {fileID: 7915675542335162959, guid: 7338044e359a544939a8dad577fd5f3d, type: 3}
+      index: 27
+      isKeyDuplicated: 0
+    - Key: Paper_Txt_Bar
+      Value: {fileID: 7915675542335162959, guid: 076c8b92593da420eae2f5f4cd4c8c20, type: 3}
+      index: 28
+      isKeyDuplicated: 0
