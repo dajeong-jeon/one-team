@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": 35.0,
-    "y": 872.0
+    "x": -1212.0,
+    "y": -2443.5
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": 1,
@@ -1183,7 +1183,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "하지만 지훈의 손목에는 여전히 사라지지 않는 붉은 실의 흔적이 남아 있었다.",
+          "script": "하지만 지훈의 손바닥에는 여전히 사라지지 않는 붉은 실의 흔적이 남아 있었다.",
           "speed": 0.02,
           "connections": [
             41
@@ -1266,7 +1266,7 @@
             "character": "Jihoon_Side_eye",
             "position": {
               "x": 0.0,
-              "y": 0.0
+              "y": -50.0
             },
             "scale": 1.0,
             "fade": true,
@@ -1325,6 +1325,45 @@
         "coroutines": [
           {
             "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Night_Sky",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
             "backgroundImage": "The_End_Happy",
             "position": {
               "x": 0.0,
@@ -1370,7 +1409,7 @@
               "preWrapMode": 8,
               "postWrapMode": 8
             },
-            "isWaitingUntilFinish": false
+            "isWaitingUntilFinish": true
           },
           {
             "$type": "Dunward.Capricorn.DeleteAllCharacterUnit, Assembly-CSharp",
@@ -1409,7 +1448,11 @@
       },
       "actionData": {
         "action": {
-          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "...",
+          "speed": 0.02,
           "connections": [
             47
           ],
@@ -1503,7 +1546,13 @@
       "y": 1410.0,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.PlaySFXUnit, Assembly-CSharp",
+            "sfx": "Foot_SFX",
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -2116,11 +2165,6 @@
             "$type": "Dunward.Capricorn.WaitUnit, Assembly-CSharp",
             "time": 3.0,
             "isWaitingUntilFinish": true
-          },
-          {
-            "$type": "Dunward.Capricorn.PlaySFXUnit, Assembly-CSharp",
-            "sfx": "Coong_SFX",
-            "isWaitingUntilFinish": false
           }
         ]
       },
@@ -2188,6 +2232,11 @@
             "$type": "Dunward.Capricorn.ShakeBackgroundUnit, Assembly-CSharp",
             "scale": 5.0,
             "elapsedTime": 4.0,
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.PlaySFXUnit, Assembly-CSharp",
+            "sfx": "Wind_SFX",
             "isWaitingUntilFinish": false
           }
         ]

@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": -314.0,
-    "y": -97.5
+    "x": -822.5,
+    "y": -1611.5
   },
-  "zoomFactor": 0.8695652,
+  "zoomFactor": 1.0,
   "debugNodeIndex": 24,
   "nodes": [
     {
@@ -1460,7 +1460,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "촌장이 씁쓸한 미소를 지으며 말했다.",
+          "script": "촌장이 음흉한 미소를 지으며 말했다.",
           "speed": 0.02,
           "connections": [
             41
