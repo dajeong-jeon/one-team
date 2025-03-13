@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 349.0,
-    "y": -683.0
+    "x": 199.5,
+    "y": -413.0
   },
-  "zoomFactor": 0.7561437,
+  "zoomFactor": 0.657516241,
   "debugNodeIndex": 1,
   "nodes": [
     {
@@ -974,7 +974,7 @@
             "character": "Minhyuk_redstring_Appear",
             "position": {
               "x": 0.0,
-              "y": 0.0
+              "y": -50.0
             },
             "scale": 1.0,
             "fade": false,
@@ -1033,7 +1033,7 @@
         "coroutines": [
           {
             "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
-            "character": "Yunhwa",
+            "character": "yunhwa_Disappear",
             "position": {
               "x": 0.0,
               "y": -150.0
@@ -1081,63 +1081,6 @@
           "speed": 0.02,
           "connections": [
             32
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 32,
-      "x": 447.0,
-      "y": 1394.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
-            "character": "Yunhwa",
-            "fade": true,
-            "elapsedTime": 1.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          }
-        ]
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "그녀의 몸이 연기로 변해 사라진다.",
-          "speed": 0.02,
-          "connections": [
-            33
           ],
           "SelectionCount": 1
         }
@@ -1274,45 +1217,6 @@
       "nodeType": 2,
       "coroutineData": {
         "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
-            "character": "Jihoon_Colse_eye",
-            "position": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          },
           {
             "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
             "character": "Jihoon_Side_eye",
@@ -1545,164 +1449,7 @@
       "y": 1410.0,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
-            "character": "Jihoon_Front",
-            "position": {
-              "x": -500.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          },
-          {
-            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
-            "character": "LeeHyung",
-            "position": {
-              "x": -300.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          },
-          {
-            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
-            "character": "Minhyuk",
-            "position": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          },
-          {
-            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
-            "character": "Yunseo",
-            "position": {
-              "x": 300.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          }
-        ]
+        "coroutines": []
       },
       "actionData": {
         "action": {
@@ -1731,7 +1478,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "정신을 차리고 보니, 깊은 산속에 있었다.",
+          "script": "정신을 차리고 보니, 그들은 깊은 산속에 있었다.",
           "speed": 0.02,
           "connections": [
             37
@@ -1755,8 +1502,8 @@
               "y": 0.0
             },
             "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
+            "fade": true,
+            "elapsedTime": 1.0,
             "lerpCurve": {
               "keys": [
                 {
@@ -1889,7 +1636,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": null,
           "subName": null,
-          "script": "마지막 순간, 지훈이 돌아본 사당엔 아무것도 남아있지 않았다.",
+          "script": "마지막 순간, 지훈이 돌아본 그곳엔 아무것도 남아있지 않았다.",
           "speed": 0.02,
           "connections": [
             36
@@ -2047,136 +1794,6 @@
           "speed": 0.02,
           "connections": [
             26
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 20,
-      "x": 74.0,
-      "y": 787.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
-            "character": "Chonjang_Angry",
-            "position": {
-              "x": 0.0,
-              "y": -400.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          },
-          {
-            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
-            "character": "Ghost_Appear",
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          },
-          {
-            "$type": "Dunward.Capricorn.DeleteForegroundUnit, Assembly-CSharp",
-            "backgroundImage": null,
-            "fade": true,
-            "elapsedTime": 0.5,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          }
-        ]
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "이남춘",
-          "subName": "촌장",
-          "script": "멈춰라! 그 봉인은 이 마을을 없애버릴 것이다!",
-          "speed": 0.02,
-          "connections": [
-            22
           ],
           "SelectionCount": 1
         }
@@ -2463,107 +2080,6 @@
       }
     },
     {
-      "id": 22,
-      "x": 424.5,
-      "y": 773.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "Shrine",
-            "position": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          },
-          {
-            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
-            "character": "Minhyuk_redstring_Disappear",
-            "position": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          }
-        ]
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "제단 위에 누워있던 친구의 몸이 다시 선명해지며, 영혼이 완전히 사라지는 것을 멈춘다.",
-          "speed": 0.02,
-          "connections": [
-            23
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
       "id": 26,
       "x": 1138.5,
       "y": 756.0,
@@ -2727,6 +2243,396 @@
           "speed": 0.02,
           "connections": [
             31
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 32,
+      "x": 447.0,
+      "y": 1394.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
+            "character": "yunhwa_Disappear",
+            "fade": true,
+            "elapsedTime": 2.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그녀의 몸이 연기로 변해 사라진다.",
+          "speed": 0.02,
+          "connections": [
+            33
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 20,
+      "x": 62.0,
+      "y": 668.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "Chonjang_Angry",
+            "position": {
+              "x": 0.0,
+              "y": -300.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
+            "character": "Ghost_Appear",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
+            "character": "Talisman",
+            "fade": true,
+            "elapsedTime": 0.5,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteForegroundUnit, Assembly-CSharp",
+            "backgroundImage": null,
+            "fade": true,
+            "elapsedTime": 0.5,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "이남춘",
+          "subName": "촌장",
+          "script": "멈춰라! 그 봉인은 이 마을을 없애버릴 것이다!",
+          "speed": 0.02,
+          "connections": [
+            22
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 22,
+      "x": 424.5,
+      "y": 644.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Shrine",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "Minhyuk_redstring_Disappear",
+            "position": {
+              "x": 0.0,
+              "y": -50.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
+            "character": "Chonjang_Angry",
+            "fade": true,
+            "elapsedTime": 0.5,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
+            "character": "Fire Bottom",
+            "fade": true,
+            "elapsedTime": 1.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "제단 위에 누워있던 친구의 몸이 다시 선명해지며, 영혼이 완전히 사라지는 것을 멈춘다.",
+          "speed": 0.02,
+          "connections": [
+            23
           ],
           "SelectionCount": 1
         }
