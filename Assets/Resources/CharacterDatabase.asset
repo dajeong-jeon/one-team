@@ -130,3 +130,7 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: 076c8b92593da420eae2f5f4cd4c8c20, type: 3}
       index: 28
       isKeyDuplicated: 0
+    - Key: Ghost_Appear
+      Value: {fileID: 7915675542335162959, guid: b97a5da5df15e4a62ac800999b005beb, type: 3}
+      index: 29
+      isKeyDuplicated: 0
