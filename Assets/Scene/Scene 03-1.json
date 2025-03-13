@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": -590.5,
-    "y": -1539.5
+    "x": -721.0,
+    "y": -93.0
   },
   "zoomFactor": 0.497176737,
   "debugNodeIndex": 24,
@@ -765,7 +765,7 @@
           },
           {
             "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
-            "character": "Chonjang",
+            "character": "Chonjang_Ani",
             "position": {
               "x": 0.0,
               "y": -400.0
@@ -2442,6 +2442,40 @@
           {
             "$type": "Dunward.Capricorn.SetAllCharacterHighlight, Assembly-CSharp",
             "value": true,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
+            "character": "Jihoon_Front",
             "fade": false,
             "elapsedTime": 0.0,
             "lerpCurve": {

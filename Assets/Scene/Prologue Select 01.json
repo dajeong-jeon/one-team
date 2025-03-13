@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 158.5,
-    "y": 516.0
+    "x": 1068.0,
+    "y": -410.0
   },
-  "zoomFactor": 0.571753263,
+  "zoomFactor": 0.657516241,
   "debugNodeIndex": 29,
   "nodes": [
     {
@@ -364,6 +364,40 @@
                   "time": 1.0,
                   "value": 1.0,
                   "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.PlayBGMUnit, Assembly-CSharp",
+            "bgm": "Village",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,

@@ -162,3 +162,7 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: 2cf79f233f8c7436d84812f8c8887424, type: 3}
       index: 36
       isKeyDuplicated: 0
+    - Key: Chonjang_Ani
+      Value: {fileID: 7915675542335162959, guid: f81e437a14f864f77841943b8d53a201, type: 3}
+      index: 37
+      isKeyDuplicated: 0
