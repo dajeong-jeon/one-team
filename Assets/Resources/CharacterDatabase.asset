@@ -142,3 +142,7 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: 5a7266a94f96e4d84af156012724b4bd, type: 3}
       index: 31
       isKeyDuplicated: 0
+    - Key: Fire Bottom
+      Value: {fileID: 7915675542335162959, guid: fe7b6fcfd158b4c58afadb44b81ef080, type: 3}
+      index: 32
+      isKeyDuplicated: 0
