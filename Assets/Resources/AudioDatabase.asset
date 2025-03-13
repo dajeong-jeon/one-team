@@ -34,6 +34,18 @@ MonoBehaviour:
         maxVolume: 1
       index: 2
       isKeyDuplicated: 0
+    - Key: Select2_BGM
+      Value:
+        clip: {fileID: 8300000, guid: 7d82551b94dfd4f1dba3bdb895e1f180, type: 3}
+        maxVolume: 1
+      index: 3
+      isKeyDuplicated: 0
+    - Key: base
+      Value:
+        clip: {fileID: 8300000, guid: 464d09c0e8058431ba0d7d52f5def7bf, type: 3}
+        maxVolume: 1
+      index: 4
+      isKeyDuplicated: 0
   sfxs:
     dictionaryList:
     - Key: alarm
@@ -65,4 +77,10 @@ MonoBehaviour:
         clip: {fileID: 8300000, guid: ad4b82e245eec46b8832aacf0dce37f7, type: 3}
         maxVolume: 1
       index: 4
+      isKeyDuplicated: 0
+    - Key: Foot_SFX
+      Value:
+        clip: {fileID: 8300000, guid: b9e7837ef82834fba83bf88b077e30fe, type: 3}
+        maxVolume: 1
+      index: 5
       isKeyDuplicated: 0
