@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": 1563.0,
-    "y": -206.0
+    "x": 1147.0,
+    "y": 221.0
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": -1,
@@ -43,8 +43,8 @@
               "y": 0.0
             },
             "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
+            "fade": true,
+            "elapsedTime": 1.5,
             "lerpCurve": {
               "keys": [
                 {
@@ -155,6 +155,45 @@
             "isWaitingUntilFinish": false
           },
           {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "Optical",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
             "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
             "character": "Jihoon_Colse_eye",
             "fade": false,
@@ -212,6 +251,40 @@
       "coroutineData": {
         "coroutines": [
           {
+            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
+            "character": "Optical",
+            "fade": false,
+            "elapsedTime": 1.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 34
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 34
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
             "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
             "backgroundImage": "Jihoon_Room",
             "position": {
@@ -219,32 +292,42 @@
               "y": 0.0
             },
             "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
+            "fade": true,
+            "elapsedTime": 2.0,
             "lerpCurve": {
               "keys": [
                 {
                   "time": 0.0,
                   "value": 0.0,
                   "inTangent": 0.0,
-                  "outTangent": 1.0,
+                  "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
                   "weightedMode": 0,
-                  "tangentMode": 0
+                  "tangentMode": 5
+                },
+                {
+                  "time": 0.280699462,
+                  "value": 0.0223193467,
+                  "inTangent": 0.07951332,
+                  "outTangent": 1.0,
+                  "inWeight": 0.333333343,
+                  "outWeight": 0.333333343,
+                  "weightedMode": 0,
+                  "tangentMode": 5
                 },
                 {
                   "time": 1.0,
                   "value": 1.0,
                   "inTangent": 1.0,
-                  "outTangent": 0.0,
+                  "outTangent": 1.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
                   "weightedMode": 0,
                   "tangentMode": 0
                 }
               ],
-              "length": 2,
+              "length": 3,
               "preWrapMode": 8,
               "postWrapMode": 8
             },
@@ -281,32 +364,42 @@
               "y": 0.0
             },
             "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
+            "fade": true,
+            "elapsedTime": 3.0,
             "lerpCurve": {
               "keys": [
                 {
                   "time": 0.0,
                   "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
+                  "inTangent": "Infinity",
+                  "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
                   "weightedMode": 0,
-                  "tangentMode": 0
+                  "tangentMode": 5
+                },
+                {
+                  "time": 0.304090977,
+                  "value": 0.06459123,
+                  "inTangent": 0.212407589,
+                  "outTangent": 1.0,
+                  "inWeight": 0.333333343,
+                  "outWeight": 0.333333343,
+                  "weightedMode": 0,
+                  "tangentMode": 5
                 },
                 {
                   "time": 1.0,
                   "value": 1.0,
                   "inTangent": 1.0,
-                  "outTangent": 0.0,
+                  "outTangent": 1.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
                   "weightedMode": 0,
                   "tangentMode": 0
                 }
               ],
-              "length": 2,
+              "length": 3,
               "preWrapMode": 8,
               "postWrapMode": 8
             },

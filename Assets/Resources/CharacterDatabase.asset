@@ -102,3 +102,11 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: a7efe60fd89ae45358d22859830af9b5, type: 3}
       index: 21
       isKeyDuplicated: 0
+    - Key: Optical
+      Value: {fileID: 7915675542335162959, guid: 5635c6e777f234c6e85734acdac1afc6, type: 3}
+      index: 22
+      isKeyDuplicated: 0
+    - Key: Dream_Silhouette_Ch
+      Value: {fileID: 7915675542335162959, guid: 5ff962115279f4ad8a143615e4345e5b, type: 3}
+      index: 23
+      isKeyDuplicated: 0
