@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": -721.0,
-    "y": -93.0
+    "x": -314.0,
+    "y": -97.5
   },
-  "zoomFactor": 0.497176737,
+  "zoomFactor": 0.8695652,
   "debugNodeIndex": 24,
   "nodes": [
     {
@@ -368,6 +368,11 @@
               "preWrapMode": 8,
               "postWrapMode": 8
             },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.PlaySFXUnit, Assembly-CSharp",
+            "sfx": "Coong_SFX",
             "isWaitingUntilFinish": false
           }
         ]

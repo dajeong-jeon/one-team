@@ -48,3 +48,9 @@ MonoBehaviour:
         maxVolume: 1
       index: 1
       isKeyDuplicated: 0
+    - Key: Coong_SFX
+      Value:
+        clip: {fileID: 8300000, guid: 45f719bfcd71a4c53affb6ae719f702c, type: 3}
+        maxVolume: 1
+      index: 2
+      isKeyDuplicated: 0
