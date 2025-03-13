@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": -1563.0,
-    "y": 1300.0
+    "x": -1275.5,
+    "y": -1286.5
   },
-  "zoomFactor": 1.0,
+  "zoomFactor": 0.7561437,
   "debugNodeIndex": 68,
   "nodes": [
     {
@@ -257,39 +257,6 @@
               "y": 0.0
             },
             "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          },
-          {
-            "$type": "Dunward.Capricorn.DeleteAllCharacterUnit, Assembly-CSharp",
             "fade": false,
             "elapsedTime": 0.0,
             "lerpCurve": {
@@ -706,7 +673,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "사당 앞에서 우연히 마주친 마을 주민이 경고하듯 말했다. 그의 눈빛은 경외와 두려움이 섞여 있었다.",
+          "script": "사당 앞에서자 숨소리와 같은 목소리가 희미하게 들려왔다.",
           "speed": 0.02,
           "connections": [
             78
@@ -1608,68 +1575,6 @@
       }
     },
     {
-      "id": 90,
-      "x": 2530.0,
-      "y": 1939.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "Village",
-            "position": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          }
-        ]
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "그리고, 그날 밤이 다가오고 있었다.",
-          "speed": 0.02,
-          "connections": [
-            91
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
       "id": 91,
       "x": 2880.0,
       "y": 1939.0,
@@ -1782,99 +1687,6 @@
           "speed": 0.02,
           "connections": [
             93
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 93,
-      "x": 1830.0,
-      "y": 2339.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
-          "scripts": [
-            "의식에 참여하여 친구를 구하려고 한다.",
-            "사당의 붉을 실을 끊어 봉인을 풀고 마을을 탈출하려 한다."
-          ],
-          "connections": [
-            95,
-            96
-          ],
-          "SelectionCount": 2
-        }
-      }
-    },
-    {
-      "id": 95,
-      "x": 2182.5,
-      "y": 2279.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
-            "key": "participate",
-            "operation": 0,
-            "value": 0,
-            "isWaitingUntilFinish": false
-          }
-        ]
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
-          "connections": [
-            97
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 96,
-      "x": 2185.5,
-      "y": 2515.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
-            "key": "participate",
-            "operation": 0,
-            "value": 1,
-            "isWaitingUntilFinish": false
-          }
-        ]
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
-          "connections": [
-            97
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 97,
-      "x": 2631.0,
-      "y": 2450.0,
-      "nodeType": 3,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
-          "connections": [
-            -999
           ],
           "SelectionCount": 1
         }
@@ -2010,6 +1822,161 @@
           "speed": 0.02,
           "connections": [
             86
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 93,
+      "x": 1835.0,
+      "y": 2514.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "의식에 참여하고 친구를 구한다.",
+            "의식에 참여하지 않고 친구를 구한다."
+          ],
+          "connections": [
+            95,
+            96
+          ],
+          "SelectionCount": 2
+        }
+      }
+    },
+    {
+      "id": 90,
+      "x": 2530.0,
+      "y": 1939.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Village",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그리고, 그날 밤이 다가오고 있었다.",
+          "speed": 0.02,
+          "connections": [
+            91
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 95,
+      "x": 2174.0,
+      "y": 2466.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "participate",
+            "operation": 0,
+            "value": 0,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            97
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 96,
+      "x": 2177.0,
+      "y": 2702.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "participate",
+            "operation": 0,
+            "value": 1,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            97
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 97,
+      "x": 2622.5,
+      "y": 2637.0,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
           ],
           "SelectionCount": 1
         }
