@@ -150,3 +150,15 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: 35f10a01fe841484ca7b99190284865a, type: 3}
       index: 33
       isKeyDuplicated: 0
+    - Key: Minhyuk_redstring
+      Value: {fileID: 7915675542335162959, guid: 795079b2d11e147b580e95d237ae8232, type: 3}
+      index: 34
+      isKeyDuplicated: 0
+    - Key: yunhwa_glow
+      Value: {fileID: 7915675542335162959, guid: 2095c194fa9b14cadb9e44268dae4b12, type: 3}
+      index: 35
+      isKeyDuplicated: 0
+    - Key: yunhwa_smile
+      Value: {fileID: 7915675542335162959, guid: 2cf79f233f8c7436d84812f8c8887424, type: 3}
+      index: 36
+      isKeyDuplicated: 0
