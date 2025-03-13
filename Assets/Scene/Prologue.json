@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 482.5,
-    "y": 233.5
+    "x": -224.0,
+    "y": -210.5
   },
-  "zoomFactor": 1.0,
+  "zoomFactor": 0.657516241,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -140,7 +140,7 @@
             },
             "scale": 1.0,
             "fade": true,
-            "elapsedTime": 0.0,
+            "elapsedTime": 2.0,
             "lerpCurve": {
               "keys": [
                 {
@@ -202,18 +202,28 @@
             },
             "scale": 1.0,
             "fade": true,
-            "elapsedTime": 0.0,
+            "elapsedTime": 2.0,
             "lerpCurve": {
               "keys": [
                 {
                   "time": 0.0,
                   "value": 0.0,
                   "inTangent": 0.0,
-                  "outTangent": 0.0,
+                  "outTangent": 0.177276134,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
                   "weightedMode": 0,
-                  "tangentMode": 0
+                  "tangentMode": 65
+                },
+                {
+                  "time": 0.246941954,
+                  "value": 0.0437769145,
+                  "inTangent": 0.177276134,
+                  "outTangent": 1.08775318,
+                  "inWeight": 0.333333343,
+                  "outWeight": 0.333333343,
+                  "weightedMode": 0,
+                  "tangentMode": 5
                 },
                 {
                   "time": 1.0,
@@ -226,7 +236,7 @@
                   "tangentMode": 0
                 }
               ],
-              "length": 2,
+              "length": 3,
               "preWrapMode": 8,
               "postWrapMode": 8
             },
@@ -263,7 +273,7 @@
               "y": 0.0
             },
             "scale": 1.0,
-            "fade": true,
+            "fade": false,
             "elapsedTime": 0.0,
             "lerpCurve": {
               "keys": [
@@ -293,6 +303,89 @@
               "postWrapMode": 8
             },
             "isWaitingUntilFinish": true
+          },
+          {
+            "$type": "Dunward.Capricorn.ChangeForegroundUnit, Assembly-CSharp",
+            "backgroundImage": "black",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteForegroundUnit, Assembly-CSharp",
+            "backgroundImage": null,
+            "fade": true,
+            "elapsedTime": 4.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.06655254,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 69
+                },
+                {
+                  "time": 0.3037119,
+                  "value": 0.0202128,
+                  "inTangent": 0.06655254,
+                  "outTangent": 1.40715778,
+                  "inWeight": 0.333333343,
+                  "outWeight": 0.333333343,
+                  "weightedMode": 0,
+                  "tangentMode": 69
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 3,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
           }
         ]
       },
@@ -478,9 +571,9 @@
         "coroutines": [
           {
             "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
-            "character": "Jihoon_Side_eye",
+            "character": "Jihoon_Side_eye_Ani",
             "position": {
-              "x": 350.0,
+              "x": 0.0,
               "y": -80.0
             },
             "scale": 1.0,
@@ -614,10 +707,10 @@
             "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
             "character": "Jihoon_Colse_eye",
             "position": {
-              "x": -570.0,
-              "y": 45.0
+              "x": 0.0,
+              "y": 0.0
             },
-            "scale": 1.0,
+            "scale": 0.9,
             "fade": false,
             "elapsedTime": 0.0,
             "lerpCurve": {

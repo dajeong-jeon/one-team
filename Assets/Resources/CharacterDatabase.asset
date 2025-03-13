@@ -94,3 +94,11 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: 40a6e1f50740f4d45b2955435ac941f3, type: 3}
       index: 19
       isKeyDuplicated: 0
+    - Key: Jihoon_Side_eye_Ani
+      Value: {fileID: 7915675542335162959, guid: 2dc8259b684cb44a28c608ee4daf40ad, type: 3}
+      index: 20
+      isKeyDuplicated: 0
+    - Key: Chonjang_Smile_Ani
+      Value: {fileID: 7915675542335162959, guid: a7efe60fd89ae45358d22859830af9b5, type: 3}
+      index: 21
+      isKeyDuplicated: 0
