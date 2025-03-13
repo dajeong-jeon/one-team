@@ -6131,7 +6131,6 @@ GameObject:
   - component: {fileID: 537380938}
   - component: {fileID: 537380942}
   - component: {fileID: 537380944}
-  - component: {fileID: 537380945}
   m_Layer: 5
   m_Name: Novel
   m_TagString: Untagged
@@ -6334,19 +6333,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   historyPopup: {fileID: 7547529970568548986, guid: 808cd751fb8c74874b52b15fe4e8a466, type: 3}
---- !u!114 &537380945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 537380933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c5c374b936bb4358bde27c78ece2b52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textAsset: {fileID: 4900000, guid: 44e38094d516d435cabd069f35bd971a, type: 3}
 --- !u!1 &583967289
 GameObject:
   m_ObjectHideFlags: 0

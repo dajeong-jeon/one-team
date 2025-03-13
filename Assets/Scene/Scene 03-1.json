@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": -822.5,
-    "y": -1611.5
+    "x": -1242.0,
+    "y": -1054.0
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": 24,
@@ -1327,6 +1327,11 @@
               "preWrapMode": 8,
               "postWrapMode": 8
             },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.PlaySFXUnit, Assembly-CSharp",
+            "sfx": "Bell",
             "isWaitingUntilFinish": false
           }
         ]

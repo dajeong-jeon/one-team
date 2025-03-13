@@ -84,3 +84,9 @@ MonoBehaviour:
         maxVolume: 1
       index: 5
       isKeyDuplicated: 0
+    - Key: Bell
+      Value:
+        clip: {fileID: 8300000, guid: 8e6824db1a1e2486b8c60227b79bea9a, type: 3}
+        maxVolume: 1
+      index: 6
+      isKeyDuplicated: 0

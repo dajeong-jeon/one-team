@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": -533.5,
-    "y": 404.0
+    "x": 0.5,
+    "y": 498.5
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": 1,
@@ -336,7 +336,47 @@
       "y": -412.0,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Red_String_Broken",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -971,13 +1011,8 @@
             "isWaitingUntilFinish": false
           },
           {
-            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
             "character": "Jihoon_Front",
-            "position": {
-              "x": 0.0,
-              "y": -650.0
-            },
-            "scale": 1.0,
             "fade": false,
             "elapsedTime": 0.0,
             "lerpCurve": {
@@ -1034,7 +1069,7 @@
         "coroutines": [
           {
             "$type": "Dunward.Capricorn.ChangeForegroundUnit, Assembly-CSharp",
-            "backgroundImage": "Shrine_Open",
+            "backgroundImage": "Shrine_open",
             "position": {
               "x": 0.0,
               "y": 0.0
@@ -1069,6 +1104,50 @@
               "preWrapMode": 8,
               "postWrapMode": 8
             },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "Ghost_Appear",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.PlaySFXUnit, Assembly-CSharp",
+            "sfx": "Scared_SFX",
             "isWaitingUntilFinish": false
           }
         ]
