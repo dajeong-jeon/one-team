@@ -138,11 +138,15 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: b97a5da5df15e4a62ac800999b005beb, type: 3}
       index: 30
       isKeyDuplicated: 0
-    - Key: Minhyuk_redstring
+    - Key: Minhyuk_redstring_Appear
       Value: {fileID: 7915675542335162959, guid: 5a7266a94f96e4d84af156012724b4bd, type: 3}
       index: 31
       isKeyDuplicated: 0
     - Key: Fire Bottom
       Value: {fileID: 7915675542335162959, guid: fe7b6fcfd158b4c58afadb44b81ef080, type: 3}
       index: 32
+      isKeyDuplicated: 0
+    - Key: Minhyuk_redstring_Disappear
+      Value: {fileID: 7915675542335162959, guid: 35f10a01fe841484ca7b99190284865a, type: 3}
+      index: 33
       isKeyDuplicated: 0
