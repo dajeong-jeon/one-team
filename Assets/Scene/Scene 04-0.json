@@ -1,10 +1,10 @@
 {
   "position": {
-    "x": -1332.5,
-    "y": -1795.5
+    "x": -48.5,
+    "y": -2145.5
   },
-  "zoomFactor": 0.8695652,
-  "debugNodeIndex": 24,
+  "zoomFactor": 1.0,
+  "debugNodeIndex": -1,
   "nodes": [
     {
       "id": 1,
@@ -173,7 +173,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "그는 사당 앞의 돌제단에 오래된 부적이 붙어있는 것을 발견한다.",
+          "script": "지훈은 사당 앞의 돌제단에 오래된 부적이 붙어있는 것을 발견한다.",
           "speed": 0.02,
           "connections": [
             6
@@ -191,7 +191,7 @@
         "coroutines": [
           {
             "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "Shrine_open",
+            "backgroundImage": "Shrine",
             "position": {
               "x": 0.0,
               "y": 0.0
@@ -346,107 +346,6 @@
       }
     },
     {
-      "id": 6,
-      "x": 66.5,
-      "y": -943.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "Paper_Zoom",
-            "position": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          },
-          {
-            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
-            "character": "Talisman",
-            "position": {
-              "x": 500.0,
-              "y": -500.0
-            },
-            "scale": 0.5,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          }
-        ]
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "지훈은 마을에서 발견한 부적과 조선시대 문서에 적혀있는 문장이 떠올랐다.",
-          "speed": 0.02,
-          "connections": [
-            8
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
       "id": 11,
       "x": 1454.5,
       "y": -828.5,
@@ -572,7 +471,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "지훈",
           "subName": "",
-          "script": "그래 저 부적이 약해지면서 결계가 점점 깨지고 있었던 거야!",
+          "script": "저 부적이 약해지면서 결계가 점점 깨지고 있었던 거야...",
           "speed": 0.02,
           "connections": [
             44
@@ -865,7 +764,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "검은 달빛 아래 안개가 피어오르며 마을이 사라지기 시작한다. 땅이 갈라지고, 힘을 잃은 원혼과 주민들이 하나둘 저승으로 떠난다.",
+          "script": "검은 달빛 아래 안개가 피어오르며 마을이 사라지기 시작한다. 힘을 잃은 원혼과 주민들이 하나둘 저승으로 떠난다.",
           "speed": 0.02,
           "connections": [
             31
@@ -1026,9 +925,9 @@
       "actionData": {
         "action": {
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
+          "name": "지훈",
           "subName": "",
-          "script": "붉은 실은 이 마을을 유지하는 결계고, 사당의 부적이 이를 막고 있었어.",
+          "script": "그래...붉은 실은 이 마을을 유지하는 결계고, 사당의 부적이 이 마을이 존재하지 못하도록 막고 있었어.",
           "speed": 0.02,
           "connections": [
             11
@@ -1264,7 +1163,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "연화",
           "subName": "무녀",
-          "script": "지훈!  부적을 제단 위에서 불태워야해 그럼 봉인이 다시 활성화 될거야!",
+          "script": "지훈! 부적을 제단 위에서 불태워야해 그럼 봉인이 다시 활성화 될거야!",
           "speed": 0.02,
           "connections": [
             15
@@ -1369,28 +1268,6 @@
           "speed": 0.02,
           "connections": [
             16
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 16,
-      "x": 771.5,
-      "y": -203.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "불이 붙자, 부적에서 검은 연기가 피어오르고, 오래된 부적의 글자가 빛나기 시작하였다.",
-          "speed": 0.02,
-          "connections": [
-            17
           ],
           "SelectionCount": 1
         }
@@ -2475,7 +2352,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "지훈과 친구들은 마을 입구로 달려가고, 사라지는 마을과 함께 공간이 흐려진다. 마지막 순간, 지훈이 돌아본 사당엔 아무것도 남아있지 않았다.",
+          "script": "지훈과 친구들은 마을 입구로 달려가고, 사라지는 마을과 함께 공간이 흐려진다.",
           "speed": 0.02,
           "connections": [
             48
@@ -2497,7 +2374,7 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "",
           "subName": "",
-          "script": "지훈과 친구들은 정신을 차리고 보니, 깊은 산속에 있었다.",
+          "script": "정신을 차리고 보니, 깊은 산속에 있었다.",
           "speed": 0.02,
           "connections": [
             37
@@ -2717,6 +2594,125 @@
           "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
           "connections": [
             43
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 6,
+      "x": 1110.0,
+      "y": -1445.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Paper_Zoom",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "Talisman",
+            "position": {
+              "x": 500.0,
+              "y": -500.0
+            },
+            "scale": 0.5,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "지훈은 마을에서 발견한 부적과 조선시대 문서에 적혀있는 문장이 떠올랐다.",
+          "speed": 0.02,
+          "connections": [
+            8
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 16,
+      "x": 771.5,
+      "y": 25.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            17
           ],
           "SelectionCount": 1
         }
