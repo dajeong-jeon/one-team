@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": -540.5,
-    "y": 491.0
+    "x": 137.0,
+    "y": -126.0
   },
-  "zoomFactor": 0.657516241,
+  "zoomFactor": 0.8695652,
   "debugNodeIndex": 1,
   "nodes": [
     {
@@ -272,6 +272,40 @@
             "scale": 1.0,
             "fade": false,
             "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
+            "character": "Minhyuk_redstring",
+            "fade": false,
+            "elapsedTime": 0.5,
             "lerpCurve": {
               "keys": [
                 {
@@ -2060,68 +2094,6 @@
       }
     },
     {
-      "id": 1,
-      "x": 74.5,
-      "y": -1412.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": [
-          {
-            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "Shrine",
-            "position": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          }
-        ]
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "붉은 실로 감겨 있는 사당 앞의 제단 한가운데, 실종된 친구가 붉은 실로 얽힌 채 누워 있다.",
-          "speed": 0.02,
-          "connections": [
-            5
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
       "id": 17,
       "x": 1097.5,
       "y": 5.0,
@@ -2272,8 +2244,8 @@
             "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
             "character": "Yunhwa",
             "position": {
-              "x": -100.0,
-              "y": 0.0
+              "x": 300.0,
+              "y": -100.0
             },
             "scale": 1.0,
             "fade": true,
@@ -2671,6 +2643,11 @@
               "postWrapMode": 8
             },
             "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.WaitUnit, Assembly-CSharp",
+            "time": 3.0,
+            "isWaitingUntilFinish": true
           }
         ]
       },
@@ -2683,6 +2660,117 @@
           "speed": 0.02,
           "connections": [
             9
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 1,
+      "x": 74.5,
+      "y": -1412.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Shrine",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "Minhyuk_redstring",
+            "position": {
+              "x": 0.0,
+              "y": -100.0
+            },
+            "scale": 1.0,
+            "fade": true,
+            "elapsedTime": 3.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.00305938721,
+                  "value": -0.0307617188,
+                  "inTangent": 0.0,
+                  "outTangent": -0.00239514513,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 69
+                },
+                {
+                  "time": 0.499042,
+                  "value": -0.03194967,
+                  "inTangent": -0.00239514513,
+                  "outTangent": 2.0599525,
+                  "inWeight": 0.333333343,
+                  "outWeight": 0.333333343,
+                  "weightedMode": 0,
+                  "tangentMode": 69
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 3,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "붉은 실로 감겨 있는 사당 앞의 제단 한가운데, 실종된 친구가 붉은 실로 얽힌 채 누워 있다.",
+          "speed": 0.02,
+          "connections": [
+            5
           ],
           "SelectionCount": 1
         }

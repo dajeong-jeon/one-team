@@ -74,67 +74,71 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: c886a96414b5845bcaea93d386b08831, type: 3}
       index: 14
       isKeyDuplicated: 0
+    - Key: Yunhwa_Shouting
+      Value: {fileID: 7915675542335162959, guid: f9a13b1688cc64ed18147d5a1fe9c1fc, type: 3}
+      index: 15
+      isKeyDuplicated: 0
     - Key: Chonjang_Bitter
       Value: {fileID: 7915675542335162959, guid: 3954bda9e55d1431ba0b4b586016338d, type: 3}
-      index: 15
+      index: 16
       isKeyDuplicated: 0
     - Key: Jihoon_afraid
       Value: {fileID: 7915675542335162959, guid: d348190481a604c07970db184d6455ac, type: 3}
-      index: 16
+      index: 17
       isKeyDuplicated: 0
     - Key: LeeHyung_afraid
       Value: {fileID: 7915675542335162959, guid: 551d2f87eced54c6b8b41357507dc859, type: 3}
-      index: 17
+      index: 18
       isKeyDuplicated: 0
     - Key: Minhyuk_afraid
       Value: {fileID: 7915675542335162959, guid: 527b683e9678c4afcb9dd66869568a9e, type: 3}
-      index: 18
+      index: 19
       isKeyDuplicated: 0
     - Key: Yunseo_afraid
       Value: {fileID: 7915675542335162959, guid: 40a6e1f50740f4d45b2955435ac941f3, type: 3}
-      index: 19
+      index: 20
       isKeyDuplicated: 0
     - Key: Jihoon_Side_eye_Ani
       Value: {fileID: 7915675542335162959, guid: 2dc8259b684cb44a28c608ee4daf40ad, type: 3}
-      index: 20
+      index: 21
       isKeyDuplicated: 0
     - Key: Chonjang_Smile_Ani
       Value: {fileID: 7915675542335162959, guid: a7efe60fd89ae45358d22859830af9b5, type: 3}
-      index: 21
+      index: 22
       isKeyDuplicated: 0
     - Key: Optical
       Value: {fileID: 7915675542335162959, guid: 5635c6e777f234c6e85734acdac1afc6, type: 3}
-      index: 22
+      index: 23
       isKeyDuplicated: 0
     - Key: Dream_Silhouette_Ch
       Value: {fileID: 7915675542335162959, guid: 5ff962115279f4ad8a143615e4345e5b, type: 3}
-      index: 23
+      index: 24
       isKeyDuplicated: 0
     - Key: Ghost_01
       Value: {fileID: 7915675542335162959, guid: 72b2388326a044cc594c15b11d6f3d85, type: 3}
-      index: 24
+      index: 25
       isKeyDuplicated: 0
     - Key: Ghost_02
       Value: {fileID: 7915675542335162959, guid: a7a40c2bf93684bbb85ca73a936df838, type: 3}
-      index: 25
+      index: 26
       isKeyDuplicated: 0
     - Key: Ghost_03
       Value: {fileID: 7915675542335162959, guid: b2f45e4fe381c408fa9729634dead56b, type: 3}
-      index: 26
+      index: 27
       isKeyDuplicated: 0
     - Key: Paper_Txt
       Value: {fileID: 7915675542335162959, guid: 7338044e359a544939a8dad577fd5f3d, type: 3}
-      index: 27
+      index: 28
       isKeyDuplicated: 0
     - Key: Paper_Txt_Bar
       Value: {fileID: 7915675542335162959, guid: 076c8b92593da420eae2f5f4cd4c8c20, type: 3}
-      index: 28
+      index: 29
       isKeyDuplicated: 0
     - Key: Ghost_Appear
       Value: {fileID: 7915675542335162959, guid: b97a5da5df15e4a62ac800999b005beb, type: 3}
-      index: 29
+      index: 30
       isKeyDuplicated: 0
     - Key: Minhyuk_redstring
       Value: {fileID: 7915675542335162959, guid: 5a7266a94f96e4d84af156012724b4bd, type: 3}
-      index: 30
+      index: 31
       isKeyDuplicated: 0
