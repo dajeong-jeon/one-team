@@ -54,3 +54,15 @@ MonoBehaviour:
         maxVolume: 1
       index: 2
       isKeyDuplicated: 0
+    - Key: Wind_SFX
+      Value:
+        clip: {fileID: 8300000, guid: 205a9080d13cd433b8715680795c6b2a, type: 3}
+        maxVolume: 1
+      index: 3
+      isKeyDuplicated: 0
+    - Key: Scared_SFX
+      Value:
+        clip: {fileID: 8300000, guid: ad4b82e245eec46b8832aacf0dce37f7, type: 3}
+        maxVolume: 1
+      index: 4
+      isKeyDuplicated: 0

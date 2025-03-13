@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 465.5,
-    "y": 152.5
+    "x": 425.0,
+    "y": 1212.0
   },
-  "zoomFactor": 0.2842624,
+  "zoomFactor": 0.7561437,
   "debugNodeIndex": 1,
   "nodes": [
     {
@@ -180,6 +180,11 @@
               "preWrapMode": 8,
               "postWrapMode": 8
             },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.PlaySFXUnit, Assembly-CSharp",
+            "sfx": "Scared_SFX",
             "isWaitingUntilFinish": false
           }
         ]
@@ -647,6 +652,11 @@
             "scale": 5.0,
             "elapsedTime": 5.0,
             "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.PlaySFXUnit, Assembly-CSharp",
+            "sfx": "Wind_SFX",
+            "isWaitingUntilFinish": false
           }
         ]
       },
@@ -1007,6 +1017,40 @@
               "postWrapMode": 8
             },
             "isWaitingUntilFinish": true
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteCharacterUnit, Assembly-CSharp",
+            "character": "Jihoon_Front",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
           }
         ]
       },
@@ -1281,38 +1325,48 @@
         "coroutines": [
           {
             "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "The_End",
+            "backgroundImage": "The_End_Happy",
             "position": {
               "x": 0.0,
               "y": 0.0
             },
             "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
+            "fade": true,
+            "elapsedTime": 3.0,
             "lerpCurve": {
               "keys": [
                 {
                   "time": 0.0,
                   "value": 0.0,
                   "inTangent": 0.0,
-                  "outTangent": 1.0,
+                  "outTangent": 0.0262232441,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
                   "weightedMode": 0,
-                  "tangentMode": 0
+                  "tangentMode": 69
+                },
+                {
+                  "time": 0.310134232,
+                  "value": 0.008132726,
+                  "inTangent": 0.0262232441,
+                  "outTangent": 1.43776858,
+                  "inWeight": 0.333333343,
+                  "outWeight": 0.333333343,
+                  "weightedMode": 0,
+                  "tangentMode": 69
                 },
                 {
                   "time": 1.0,
                   "value": 1.0,
                   "inTangent": 1.0,
-                  "outTangent": 0.0,
+                  "outTangent": 1.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
                   "weightedMode": 0,
                   "tangentMode": 0
                 }
               ],
-              "length": 2,
+              "length": 3,
               "preWrapMode": 8,
               "postWrapMode": 8
             },

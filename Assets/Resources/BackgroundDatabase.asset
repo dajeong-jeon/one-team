@@ -167,11 +167,15 @@ MonoBehaviour:
       Value: {fileID: 21300000, guid: 1660f8776d8174fdaaf0a2360d9fa790, type: 3}
       index: 37
       isKeyDuplicated: 0
-    - Key: Shrine_Open
-      Value: {fileID: 21300000, guid: 34aea7ceca6554126ad00ca8c534d2bb, type: 3}
-      index: 38
-      isKeyDuplicated: 0
     - Key: Shrine_open_Zoom
       Value: {fileID: 21300000, guid: 9e74e15dcf4ee44a5bf633016d79a72d, type: 3}
+      index: 38
+      isKeyDuplicated: 0
+    - Key: Shrine_open
+      Value: {fileID: 21300000, guid: 34aea7ceca6554126ad00ca8c534d2bb, type: 3}
       index: 39
+      isKeyDuplicated: 0
+    - Key: The_End_Happy
+      Value: {fileID: 21300000, guid: a91970d731b2f423bb3ee26404b8cb99, type: 3}
+      index: 40
       isKeyDuplicated: 0
