@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 1147.0,
-    "y": 221.0
+    "x": 1400.0,
+    "y": 81.5
   },
-  "zoomFactor": 1.0,
+  "zoomFactor": 0.7561437,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -72,6 +72,12 @@
               "preWrapMode": 8,
               "postWrapMode": 8
             },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.ShakeBackgroundUnit, Assembly-CSharp",
+            "scale": 10.0,
+            "elapsedTime": 2.0,
             "isWaitingUntilFinish": false
           }
         ]
@@ -364,7 +370,7 @@
               "y": 0.0
             },
             "scale": 1.0,
-            "fade": true,
+            "fade": false,
             "elapsedTime": 3.0,
             "lerpCurve": {
               "keys": [
