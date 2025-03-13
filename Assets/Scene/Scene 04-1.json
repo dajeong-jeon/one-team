@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 66.0,
-    "y": 239.5
+    "x": -533.5,
+    "y": 404.0
   },
-  "zoomFactor": 0.497176737,
+  "zoomFactor": 1.0,
   "debugNodeIndex": 1,
   "nodes": [
     {
@@ -1034,7 +1034,7 @@
         "coroutines": [
           {
             "$type": "Dunward.Capricorn.ChangeForegroundUnit, Assembly-CSharp",
-            "backgroundImage": "Shrine_open",
+            "backgroundImage": "Shrine_Open",
             "position": {
               "x": 0.0,
               "y": 0.0
