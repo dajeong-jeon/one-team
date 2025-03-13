@@ -147,6 +147,9 @@ namespace Dunward.Capricorn
                     break;
                 case ChangeBackgroundUnit changeBackgroundUnit:
                     yield return changeBackgroundUnit.Execute(settings.backgroundArea, cache.lastBackground);
+			break;
+		case ShakeBackgroundUnit shakeBackgroundUnit:
+                    yield return shakeBackgroundUnit.Execute(settings.backgroundArea, cache.lastBackground);
                     break;
                 case ChangeForegroundUnit changeForegroundUnit:
                     yield return changeForegroundUnit.Execute(settings.foregroundArea, cache.lastForeground);

@@ -1,10 +1,10 @@
 {
   "position": {
-    "x": -552.0,
-    "y": -230.5
+    "x": 482.5,
+    "y": 233.5
   },
   "zoomFactor": 1.0,
-  "debugNodeIndex": 32,
+  "debugNodeIndex": -1,
   "nodes": [
     {
       "id": 2,
@@ -301,28 +301,6 @@
           "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
           "connections": [
             17
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 17,
-      "x": -314.0,
-      "y": -173.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": null,
-          "subName": null,
-          "script": "어느 깊은 산속, 지도에도 기록에도 없는 작은 마을이 있었다. 이 마을은 특정한 조건이 맞을 때, 밤이 가장 깊고 달이 검게 물드는 날에만 나타난다는 전설이 내려온다.",
-          "speed": 0.02,
-          "connections": [
-            1
           ],
           "SelectionCount": 1
         }
@@ -889,6 +867,28 @@
             13
           ],
           "SelectionCount": 2
+        }
+      }
+    },
+    {
+      "id": 17,
+      "x": -316.0,
+      "y": -183.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "어느 깊은 산속, 지도에도 기록에도 없는 작은 마을이 있었다. 이 마을은 특정한 조건이 맞을 때, 밤이 가장 깊고 달이 검게 물드는 날에만 나타난다는 전설이 내려온다.",
+          "speed": 0.02,
+          "connections": [
+            1
+          ],
+          "SelectionCount": 1
         }
       }
     }
